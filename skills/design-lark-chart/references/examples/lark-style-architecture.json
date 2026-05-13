@@ -1,0 +1,638 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "type": "frame",
+      "id": "root",
+      "layout": "vertical",
+      "gap": 28,
+      "padding": 36,
+      "alignItems": "center",
+      "width": "fit-content",
+      "height": "fit-content",
+      "fillColor": "#fbfcfd",
+      "borderColor": "#fbfcfd",
+      "borderWidth": 1,
+      "children": [
+        {
+          "type": "rect",
+          "id": "global-badge",
+          "width": 160,
+          "height": 40,
+          "borderRadius": 20,
+          "text": "全局核心逻辑",
+          "fillColor": "#6e56b5",
+          "borderColor": "#6e56b5",
+          "textColor": "#ffffff",
+          "fontSize": 14,
+          "fontWeight": "bold"
+        },
+        {
+          "type": "frame",
+          "id": "core-banner",
+          "layout": "vertical",
+          "gap": 22,
+          "padding": 28,
+          "alignItems": "center",
+          "width": 1280,
+          "height": "fit-content",
+          "fillColor": "#f3eeff",
+          "borderColor": "#6e56b5",
+          "borderWidth": 2,
+          "borderRadius": 8,
+          "children": [
+            {
+              "type": "text",
+              "id": "core-title",
+              "text": "把评测配置转化为可解释的质量结论",
+              "fontSize": 22,
+              "fontWeight": "bold",
+              "textColor": "#1f2329",
+              "width": "fit-content",
+              "height": "fit-content"
+            },
+            {
+              "type": "frame",
+              "id": "core-pillar-row",
+              "layout": "horizontal",
+              "gap": 24,
+              "padding": 0,
+              "alignItems": "stretch",
+              "width": "fit-content",
+              "height": "fit-content",
+              "children": [
+                {
+                  "type": "rect",
+                  "id": "core-pillar-1",
+                  "width": 340,
+                  "height": 56,
+                  "borderRadius": 8,
+                  "text": "统一评测对象与数据集",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#dadde3",
+                  "textColor": "#1f2329",
+                  "fontSize": 14,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "rect",
+                  "id": "core-pillar-2",
+                  "width": 340,
+                  "height": 56,
+                  "borderRadius": 8,
+                  "text": "任务编排 × 指标计算 × 报告解释",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#dadde3",
+                  "textColor": "#1f2329",
+                  "fontSize": 14,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "rect",
+                  "id": "core-pillar-3",
+                  "width": 340,
+                  "height": 56,
+                  "borderRadius": 8,
+                  "text": "覆盖离线评测、回归评测、人工复核",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#dadde3",
+                  "textColor": "#1f2329",
+                  "fontSize": 14,
+                  "fontWeight": "bold"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "module-row",
+          "layout": "horizontal",
+          "gap": 32,
+          "padding": 0,
+          "alignItems": "stretch",
+          "width": "fit-content",
+          "height": "fit-content",
+          "children": [
+            {
+              "type": "frame",
+              "id": "module-a",
+              "layout": "vertical",
+              "gap": 18,
+              "padding": 22,
+              "width": 292,
+              "height": "fit-content",
+              "fillColor": "#eef3ff",
+              "borderColor": "#2f69a5",
+              "borderWidth": 2,
+              "borderRadius": 8,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "module-a-title",
+                  "text": "模块 A：评测输入管理",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                  "textColor": "#1f2329",
+                  "width": "fit-content",
+                  "height": "fit-content"
+                },
+                {
+                  "type": "rect",
+                  "id": "dataset-card",
+                  "width": 248,
+                  "height": 150,
+                  "borderRadius": 8,
+                  "text": "  数据集接入\n\n  • 数据集版本管理\n  • 评估对象登记\n  • 指标策略绑定\n  • 权限与空间校验",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#dadde3",
+                  "textColor": "#4e5969",
+                  "fontSize": 13,
+                  "textAlign": "left"
+                },
+                {
+                  "type": "rect",
+                  "id": "object-register-card",
+                  "width": 248,
+                  "height": 88,
+                  "borderRadius": 8,
+                  "text": "评估对象登记",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#dadde3",
+                  "textColor": "#1f2329",
+                  "fontSize": 14,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "rect",
+                  "id": "experiment-card",
+                  "width": 248,
+                  "height": 88,
+                  "borderRadius": 8,
+                  "text": "实验配置",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#dadde3",
+                  "textColor": "#1f2329",
+                  "fontSize": 14,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "rect",
+                  "id": "permission-card",
+                  "width": 248,
+                  "height": 88,
+                  "borderRadius": 8,
+                  "text": "权限校验",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#dadde3",
+                  "textColor": "#1f2329",
+                  "fontSize": 14,
+                  "fontWeight": "bold"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "module-b",
+              "layout": "vertical",
+              "gap": 14,
+              "padding": 22,
+              "width": 292,
+              "height": "fit-content",
+              "fillColor": "#f3eeff",
+              "borderColor": "#6e56b5",
+              "borderWidth": 2,
+              "borderRadius": 8,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "module-b-title",
+                  "text": "模块 B：评测方案设计",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                  "textColor": "#1f2329",
+                  "width": "fit-content",
+                  "height": "fit-content"
+                },
+                {
+                  "type": "rect",
+                  "id": "task-template-card",
+                  "width": 248,
+                  "height": 52,
+                  "borderRadius": 8,
+                  "text": "任务模板",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#dadde3",
+                  "textColor": "#1f2329",
+                  "fontSize": 14,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "rect",
+                  "id": "sampling-card",
+                  "width": 248,
+                  "height": 52,
+                  "borderRadius": 8,
+                  "text": "样本抽样",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#dadde3",
+                  "textColor": "#1f2329",
+                  "fontSize": 14,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "rect",
+                  "id": "metric-policy-card",
+                  "width": 248,
+                  "height": 52,
+                  "borderRadius": 8,
+                  "text": "指标策略",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#dadde3",
+                  "textColor": "#1f2329",
+                  "fontSize": 14,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "rect",
+                  "id": "threshold-card",
+                  "width": 248,
+                  "height": 52,
+                  "borderRadius": 8,
+                  "text": "阈值规则",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#dadde3",
+                  "textColor": "#1f2329",
+                  "fontSize": 14,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "frame",
+                  "id": "module-c",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 18,
+                  "width": 248,
+                  "height": "fit-content",
+                  "fillColor": "#eaf7ee",
+                  "borderColor": "#2e7d4f",
+                  "borderWidth": 2,
+                  "borderRadius": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "module-c-title",
+                      "text": "模块 C：任务优先级策略",
+                      "fontSize": 16,
+                      "fontWeight": "bold",
+                      "textColor": "#1f2329",
+                      "width": "fit-content",
+                      "height": "fit-content"
+                    },
+                    {
+                      "type": "rect",
+                      "id": "high-priority-card",
+                      "width": 212,
+                      "height": 46,
+                      "borderRadius": 8,
+                      "text": "高优先级任务",
+                      "fillColor": "#ffffff",
+                      "borderColor": "#2e7d4f",
+                      "textColor": "#1f2329",
+                      "fontSize": 14,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "rect",
+                      "id": "regression-task-card",
+                      "width": 212,
+                      "height": 46,
+                      "borderRadius": 8,
+                      "text": "回归任务",
+                      "fillColor": "#ffffff",
+                      "borderColor": "#2e7d4f",
+                      "textColor": "#1f2329",
+                      "fontSize": 14,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "rect",
+                      "id": "manual-review-card",
+                      "width": 212,
+                      "height": 46,
+                      "borderRadius": 8,
+                      "text": "人工复核",
+                      "fillColor": "#ffffff",
+                      "borderColor": "#2e7d4f",
+                      "textColor": "#1f2329",
+                      "fontSize": 14,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "rect",
+                      "id": "exception-bottom-card",
+                      "width": 212,
+                      "height": 46,
+                      "borderRadius": 8,
+                      "text": "异常兜底",
+                      "fillColor": "#2e7d4f",
+                      "borderColor": "#2e7d4f",
+                      "textColor": "#ffffff",
+                      "fontSize": 14,
+                      "fontWeight": "bold"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "module-d",
+              "layout": "vertical",
+              "gap": 18,
+              "padding": 22,
+              "width": 292,
+              "height": "fit-content",
+              "fillColor": "#fff8e6",
+              "borderColor": "#b57918",
+              "borderWidth": 2,
+              "borderRadius": 8,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "module-d-title",
+                  "text": "模块 D：执行与调度",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                  "textColor": "#1f2329",
+                  "width": "fit-content",
+                  "height": "fit-content"
+                },
+                {
+                  "type": "rect",
+                  "id": "queue-card",
+                  "width": 248,
+                  "height": 140,
+                  "borderRadius": 8,
+                  "text": "  队列调度\n\n  • 队列优先级控制\n  • 并发限流与重试\n  • 模型调用追踪\n  • 结果回写任务",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#dadde3",
+                  "textColor": "#4e5969",
+                  "fontSize": 13,
+                  "textAlign": "left"
+                },
+                {
+                  "type": "rect",
+                  "id": "objective-card",
+                  "width": 248,
+                  "height": 92,
+                  "borderRadius": 8,
+                  "text": "核心执行目标\n提升任务吞吐与结果可追踪",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#dadde3",
+                  "textColor": "#1f2329",
+                  "fontSize": 13,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "rect",
+                  "id": "queue-pipeline-card",
+                  "width": 248,
+                  "height": 54,
+                  "borderRadius": 8,
+                  "text": "队列调度",
+                  "fillColor": "#fff8e6",
+                  "borderColor": "#b57918",
+                  "textColor": "#1f2329",
+                  "fontSize": 14,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "rect",
+                  "id": "model-call-card",
+                  "width": 248,
+                  "height": 54,
+                  "borderRadius": 8,
+                  "text": "模型调用",
+                  "fillColor": "#fff8e6",
+                  "borderColor": "#b57918",
+                  "textColor": "#1f2329",
+                  "fontSize": 14,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "rect",
+                  "id": "metric-calc-card",
+                  "width": 248,
+                  "height": 54,
+                  "borderRadius": 8,
+                  "text": "指标计算",
+                  "fillColor": "#fff8e6",
+                  "borderColor": "#b57918",
+                  "textColor": "#1f2329",
+                  "fontSize": 14,
+                  "fontWeight": "bold"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "module-e",
+              "layout": "vertical",
+              "gap": 18,
+              "padding": 22,
+              "width": 292,
+              "height": "fit-content",
+              "fillColor": "#fdebec",
+              "borderColor": "#b7444a",
+              "borderWidth": 2,
+              "borderRadius": 8,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "module-e-title",
+                  "text": "模块 E：报告与复盘",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                  "textColor": "#1f2329",
+                  "width": "fit-content",
+                  "height": "fit-content"
+                },
+                {
+                  "type": "rect",
+                  "id": "report-card",
+                  "width": 248,
+                  "height": 122,
+                  "borderRadius": 8,
+                  "text": "  报告生成\n\n  • 报告生成\n  • 结论解释\n  • 问题定位",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#dadde3",
+                  "textColor": "#4e5969",
+                  "fontSize": 13,
+                  "textAlign": "left"
+                },
+                {
+                  "type": "rect",
+                  "id": "diagnosis-card",
+                  "width": 248,
+                  "height": 122,
+                  "borderRadius": 8,
+                  "text": "  问题定位\n\n  • 版本对比\n  • 趋势分析\n  • 知识沉淀",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#dadde3",
+                  "textColor": "#4e5969",
+                  "fontSize": 13,
+                  "textAlign": "left"
+                },
+                {
+                  "type": "rect",
+                  "id": "operation-card",
+                  "width": 248,
+                  "height": 100,
+                  "borderRadius": 8,
+                  "text": "  持续运营\n\n  • 验收闭环",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#dadde3",
+                  "textColor": "#4e5969",
+                  "fontSize": 13,
+                  "textAlign": "left"
+                },
+                {
+                  "type": "rect",
+                  "id": "delivery-card",
+                  "width": 248,
+                  "height": 54,
+                  "borderRadius": 8,
+                  "text": "交付可解释评测结论",
+                  "fillColor": "#b7444a",
+                  "borderColor": "#a83b40",
+                  "textColor": "#ffffff",
+                  "fontSize": 14,
+                  "fontWeight": "bold"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "core-pillar-1",
+        "to": "module-a",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "rightAngle",
+        "lineColor": "#6e56b5",
+        "lineWidth": 1,
+        "endArrow": "arrow"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "core-pillar-2",
+        "to": "module-b",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "rightAngle",
+        "lineColor": "#6e56b5",
+        "lineWidth": 1,
+        "endArrow": "arrow"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "core-pillar-2",
+        "to": "module-d",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "rightAngle",
+        "lineColor": "#6e56b5",
+        "lineWidth": 1,
+        "endArrow": "arrow"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "core-pillar-3",
+        "to": "module-e",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "rightAngle",
+        "lineColor": "#6e56b5",
+        "lineWidth": 1,
+        "endArrow": "arrow"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "dataset-card",
+        "to": "task-template-card",
+        "fromAnchor": "right",
+        "toAnchor": "left",
+        "lineShape": "rightAngle",
+        "lineColor": "#7c8aa5",
+        "lineWidth": 1,
+        "endArrow": "arrow"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "sampling-card",
+        "to": "module-c",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "rightAngle",
+        "lineColor": "#2e7d4f",
+        "lineWidth": 1,
+        "endArrow": "arrow"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "module-c",
+        "to": "queue-card",
+        "fromAnchor": "right",
+        "toAnchor": "left",
+        "lineShape": "rightAngle",
+        "lineColor": "#2e7d4f",
+        "lineWidth": 1,
+        "endArrow": "arrow"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "metric-calc-card",
+        "to": "report-card",
+        "fromAnchor": "right",
+        "toAnchor": "left",
+        "lineShape": "rightAngle",
+        "lineColor": "#b57918",
+        "lineWidth": 1,
+        "endArrow": "arrow"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "diagnosis-card",
+        "to": "delivery-card",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "rightAngle",
+        "lineColor": "#b7444a",
+        "lineWidth": 1,
+        "endArrow": "arrow"
+      }
+    }
+  ],
+  "_scenario": "飞书高级风格评测架构"
+}

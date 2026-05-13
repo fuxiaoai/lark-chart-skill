@@ -1,0 +1,67 @@
+{
+  "version": 2,
+  "_scenario": "最小 smoke test，用于验证 whiteboard-cli DSL v2 工具链可用",
+  "nodes": [
+    {
+      "type": "frame",
+      "id": "root",
+      "layout": "vertical",
+      "gap": 16,
+      "padding": 24,
+      "width": "fit-content",
+      "height": "fit-content",
+      "fillColor": "#ffffff",
+      "borderColor": "#dadde3",
+      "borderWidth": 1,
+      "children": [
+        {
+          "type": "text",
+          "id": "title",
+          "text": "Smoke Board",
+          "fontSize": 18,
+          "textColor": "#1f2329",
+          "fontWeight": "bold",
+          "width": "fit-content",
+          "height": "fit-content"
+        },
+        {
+          "type": "rect",
+          "id": "node-a",
+          "width": 180,
+          "height": 56,
+          "borderRadius": 8,
+          "text": "输入节点",
+          "fillColor": "#ffffff",
+          "borderColor": "#5b7fcb",
+          "textColor": "#1f2329",
+          "fontSize": 14
+        },
+        {
+          "type": "rect",
+          "id": "node-b",
+          "width": 180,
+          "height": 56,
+          "borderRadius": 8,
+          "text": "输出节点",
+          "fillColor": "#ffffff",
+          "borderColor": "#5b7fcb",
+          "textColor": "#1f2329",
+          "fontSize": 14
+        }
+      ]
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "node-a",
+        "to": "node-b",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "straight",
+        "lineColor": "#5b7fcb",
+        "lineWidth": 1,
+        "endArrow": "arrow"
+      }
+    }
+  ]
+}

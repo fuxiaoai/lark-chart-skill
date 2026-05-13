@@ -1,0 +1,147 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "type": "frame",
+      "id": "root",
+      "layout": "vertical",
+      "gap": 14,
+      "padding": 32,
+      "width": "fit-content",
+      "height": "fit-content",
+      "fillColor": "#ffffff",
+      "borderColor": "#ffffff",
+      "borderWidth": 0,
+      "children": [
+        {
+          "type": "text",
+          "id": "title",
+          "text": "B 端 SaaS 销售漏斗",
+          "fontSize": 18,
+          "textColor": "#1f2329",
+          "fontWeight": "bold",
+          "width": "fit-content",
+          "height": "fit-content"
+        },
+        {
+          "type": "trapezoid",
+          "id": "n1",
+          "width": 420,
+          "topWidth": 420,
+          "height": 74,
+          "borderRadius": 8,
+          "text": "线索获取 10,000",
+          "fillColor": "#eef3ff",
+          "borderColor": "#5b7fcb",
+          "textColor": "#1f2329",
+          "fontSize": 14
+        },
+        {
+          "type": "trapezoid",
+          "id": "n2",
+          "width": 360,
+          "topWidth": 360,
+          "height": 74,
+          "borderRadius": 8,
+          "text": "意向确认 4,500 (45%)",
+          "fillColor": "#f3eeff",
+          "borderColor": "#7b67c9",
+          "textColor": "#1f2329",
+          "fontSize": 14
+        },
+        {
+          "type": "trapezoid",
+          "id": "n3",
+          "width": 300,
+          "topWidth": 300,
+          "height": 74,
+          "borderRadius": 8,
+          "text": "方案演示 2,000 (44%)",
+          "fillColor": "#eaf7ee",
+          "borderColor": "#4e9d6d",
+          "textColor": "#1f2329",
+          "fontSize": 14
+        },
+        {
+          "type": "trapezoid",
+          "id": "n4",
+          "width": 240,
+          "topWidth": 240,
+          "height": 74,
+          "borderRadius": 8,
+          "text": "商务谈判 800 (40%)",
+          "fillColor": "#fff4d9",
+          "borderColor": "#c8a33e",
+          "textColor": "#1f2329",
+          "fontSize": 14
+        },
+        {
+          "type": "trapezoid",
+          "id": "n5",
+          "width": 180,
+          "topWidth": 180,
+          "height": 74,
+          "borderRadius": 8,
+          "text": "签约成交 240 (30%)",
+          "fillColor": "#fdebec",
+          "borderColor": "#c94c4c",
+          "textColor": "#1f2329",
+          "fontSize": 14
+        }
+      ]
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "n1",
+        "to": "n2",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "straight",
+        "lineColor": "#dadde3",
+        "lineWidth": 1,
+        "endArrow": "arrow"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "n2",
+        "to": "n3",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "straight",
+        "lineColor": "#dadde3",
+        "lineWidth": 1,
+        "endArrow": "arrow"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "n3",
+        "to": "n4",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "straight",
+        "lineColor": "#dadde3",
+        "lineWidth": 1,
+        "endArrow": "arrow"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "n4",
+        "to": "n5",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "straight",
+        "lineColor": "#dadde3",
+        "lineWidth": 1,
+        "endArrow": "arrow"
+      }
+    }
+  ],
+  "_scenario": "B 端 SaaS 销售漏斗"
+}

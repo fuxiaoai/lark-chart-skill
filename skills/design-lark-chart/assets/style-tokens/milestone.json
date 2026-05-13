@@ -1,0 +1,182 @@
+{
+  "id": "milestone",
+  "cn": "里程碑图",
+  "use_case": "版本路线图、阶段目标、关键节点",
+  "source_token": "KE4pwrLGIhkVaZbTr6Cc3oBJnQc",
+  "node_count": 24,
+  "style": {
+    "palette": {
+      "fill_colors": [
+        {
+          "value": "#57d7d0",
+          "count": 1
+        },
+        {
+          "value": "#edf7f2",
+          "count": 1
+        },
+        {
+          "value": "#eef9f1",
+          "count": 1
+        },
+        {
+          "value": "#f3eeff",
+          "count": 1
+        },
+        {
+          "value": "#a58bff",
+          "count": 1
+        },
+        {
+          "value": "#edf9fa",
+          "count": 1
+        },
+        {
+          "value": "#66e3a5",
+          "count": 1
+        },
+        {
+          "value": "#f7f8fa",
+          "count": 1
+        },
+        {
+          "value": "#4fd88f",
+          "count": 1
+        }
+      ],
+      "border_colors": [
+        {
+          "value": "#ffffff",
+          "count": 4
+        },
+        {
+          "value": "#66e3a5",
+          "count": 2
+        },
+        {
+          "value": "#57d7d0",
+          "count": 2
+        },
+        {
+          "value": "#4fd88f",
+          "count": 2
+        },
+        {
+          "value": "#a58bff",
+          "count": 2
+        },
+        {
+          "value": "#62e6a8",
+          "count": 1
+        }
+      ],
+      "text_colors": [
+        {
+          "value": "#1f2329",
+          "count": 9
+        },
+        {
+          "value": "#6b7280",
+          "count": 5
+        },
+        {
+          "value": "#14532d",
+          "count": 5
+        }
+      ]
+    },
+    "typography": {
+      "font_sizes": [
+        {
+          "value": 14,
+          "count": 13
+        },
+        {
+          "value": 12,
+          "count": 5
+        },
+        {
+          "value": 24,
+          "count": 1
+        }
+      ],
+      "font_weights": [
+        {
+          "value": "regular",
+          "count": 14
+        },
+        {
+          "value": "bold",
+          "count": 5
+        }
+      ],
+      "horizontal_align": [
+        {
+          "value": "center",
+          "count": 19
+        }
+      ]
+    },
+    "shape": {
+      "composite_types": [
+        {
+          "value": "ellipse",
+          "count": 4
+        },
+        {
+          "value": "round_rect",
+          "count": 4
+        },
+        {
+          "value": "rect",
+          "count": 1
+        }
+      ],
+      "border_widths": [
+        {
+          "value": "narrow",
+          "count": 8
+        }
+      ],
+      "border_styles": [
+        {
+          "value": "solid",
+          "count": 8
+        },
+        {
+          "value": "none",
+          "count": 1
+        }
+      ]
+    },
+    "connector": {
+      "shapes": [
+        {
+          "value": "straight",
+          "count": 5
+        }
+      ],
+      "arrow_styles": [
+        {
+          "value": "none",
+          "count": 4
+        },
+        {
+          "value": "line_arrow",
+          "count": 1
+        }
+      ],
+      "line_widths": [
+        {
+          "value": "narrow",
+          "count": 4
+        },
+        {
+          "value": "medium",
+          "count": 1
+        }
+      ]
+    },
+    "uses_inline_svg_decoration": false
+  }
+}

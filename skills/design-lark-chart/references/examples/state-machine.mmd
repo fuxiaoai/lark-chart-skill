@@ -1,0 +1,11 @@
+stateDiagram-v2
+    [*] --> Pending : 创建评测任务
+    Pending --> Running : 调度执行
+    Running --> Calculating : 推理完成
+    Calculating --> Success : 报告生成完成
+    Success --> [*]
+    Running --> Failed : 执行异常
+    Calculating --> Failed : 指标计算异常
+    Failed --> Pending : 重试
+    Failed --> Cancelled : 人工终止
+    Cancelled --> [*]

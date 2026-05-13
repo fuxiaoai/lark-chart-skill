@@ -1,0 +1,330 @@
+{
+  "source_doc": "https://my.feishu.cn/wiki/SvZqwLfcSi3zw8kFIbwcEZFgnRc",
+  "boards": [
+    {
+      "id": "business-architecture",
+      "cn": "业务架构图",
+      "use_case": "业务能力、模块分层、平台组成"
+    },
+    {
+      "id": "system-architecture",
+      "cn": "系统架构图",
+      "use_case": "技术组件、服务拓扑、外部依赖"
+    },
+    {
+      "id": "flowchart",
+      "cn": "流程图",
+      "use_case": "单角色流程、审批/判断步骤"
+    },
+    {
+      "id": "swimlane",
+      "cn": "泳道图",
+      "use_case": "多角色、多团队协作流程"
+    },
+    {
+      "id": "sequence",
+      "cn": "时序图",
+      "use_case": "接口调用顺序、跨系统交互"
+    },
+    {
+      "id": "org-chart",
+      "cn": "组织架构图",
+      "use_case": "团队层级、职责分工、汇报关系"
+    },
+    {
+      "id": "state-machine",
+      "cn": "状态机图",
+      "use_case": "任务生命周期、状态转换"
+    },
+    {
+      "id": "funnel",
+      "cn": "漏斗图",
+      "use_case": "阶段转化、流失分析"
+    },
+    {
+      "id": "gantt",
+      "cn": "甘特图",
+      "use_case": "项目排期、任务周期、进度跟踪"
+    },
+    {
+      "id": "milestone",
+      "cn": "里程碑图",
+      "use_case": "版本路线图、阶段目标、关键节点"
+    },
+    {
+      "id": "matrix-quadrant",
+      "cn": "矩阵象限图",
+      "use_case": "优先级、价值成本、分类判断"
+    },
+    {
+      "id": "link-architecture",
+      "cn": "链路架构图",
+      "use_case": "端到端调用链、数据流转、系统依赖"
+    },
+    {
+      "id": "lark-style-architecture",
+      "cn": "飞书画板风格架构图",
+      "use_case": "策略到模块的产品/运营承接关系"
+    },
+    {
+      "id": "sketch-architecture",
+      "cn": "手绘风格架构图",
+      "use_case": "低保真草图、早期方案沟通"
+    },
+    {
+      "id": "complex-swimlane",
+      "cn": "复杂业务泳道图",
+      "use_case": "多系统多节点的端到端履约链路"
+    }
+  ],
+  "house_style": {
+    "fill_colors": [
+      {
+        "value": "#ffffff",
+        "count": 132
+      },
+      {
+        "value": "#eef3ff",
+        "count": 22
+      },
+      {
+        "value": "#fdebec",
+        "count": 19
+      },
+      {
+        "value": "#fbfcfd",
+        "count": 17
+      },
+      {
+        "value": "#f5f6f8",
+        "count": 12
+      },
+      {
+        "value": "#bfc5cc",
+        "count": 12
+      },
+      {
+        "value": "#eaf7ee",
+        "count": 11
+      },
+      {
+        "value": "#f3eeff",
+        "count": 10
+      },
+      {
+        "value": "#4b74d8",
+        "count": 10
+      },
+      {
+        "value": "#fff4d9",
+        "count": 7
+      },
+      {
+        "value": "#f7f8fa",
+        "count": 7
+      },
+      {
+        "value": "#b7444a",
+        "count": 7
+      }
+    ],
+    "border_colors": [
+      {
+        "value": "#5b7fcb",
+        "count": 102
+      },
+      {
+        "value": "#dadde3",
+        "count": 60
+      },
+      {
+        "value": "#d9dee8",
+        "count": 24
+      },
+      {
+        "value": "#4e9d6d",
+        "count": 23
+      },
+      {
+        "value": "#5b8ff9",
+        "count": 17
+      },
+      {
+        "value": "#c8a33e",
+        "count": 17
+      },
+      {
+        "value": "#b8bec8",
+        "count": 16
+      },
+      {
+        "value": "#c6cbd3",
+        "count": 12
+      },
+      {
+        "value": "#d6dae2",
+        "count": 11
+      },
+      {
+        "value": "#c94c4c",
+        "count": 11
+      },
+      {
+        "value": "#6b7280",
+        "count": 11
+      },
+      {
+        "value": "#7b67c9",
+        "count": 10
+      }
+    ],
+    "text_colors": [
+      {
+        "value": "#1f2329",
+        "count": 604
+      },
+      {
+        "value": "#ffffff",
+        "count": 35
+      },
+      {
+        "value": "#4e5969",
+        "count": 23
+      },
+      {
+        "value": "#6b7280",
+        "count": 19
+      },
+      {
+        "value": "#5b7fcb",
+        "count": 14
+      },
+      {
+        "value": "#8a9099",
+        "count": 12
+      },
+      {
+        "value": "#86909c",
+        "count": 11
+      },
+      {
+        "value": "#c94c4c",
+        "count": 10
+      },
+      {
+        "value": "#b7bdc6",
+        "count": 6
+      },
+      {
+        "value": "#4b74d8",
+        "count": 5
+      },
+      {
+        "value": "#eef3ff",
+        "count": 5
+      },
+      {
+        "value": "#14532d",
+        "count": 5
+      }
+    ],
+    "font_sizes": [
+      {
+        "value": 14,
+        "count": 496
+      },
+      {
+        "value": 13,
+        "count": 89
+      },
+      {
+        "value": 12,
+        "count": 80
+      },
+      {
+        "value": 18,
+        "count": 40
+      },
+      {
+        "value": 16,
+        "count": 40
+      },
+      {
+        "value": 11,
+        "count": 22
+      },
+      {
+        "value": 24,
+        "count": 7
+      },
+      {
+        "value": 30,
+        "count": 6
+      },
+      {
+        "value": 15,
+        "count": 4
+      },
+      {
+        "value": 26,
+        "count": 1
+      },
+      {
+        "value": 22,
+        "count": 1
+      }
+    ],
+    "font_weights": [
+      {
+        "value": "regular",
+        "count": 485
+      },
+      {
+        "value": "bold",
+        "count": 301
+      }
+    ],
+    "composite_types": [
+      {
+        "value": "round_rect",
+        "count": 242
+      },
+      {
+        "value": "ellipse",
+        "count": 56
+      },
+      {
+        "value": "rect",
+        "count": 41
+      },
+      {
+        "value": "round_rect2",
+        "count": 6
+      }
+    ],
+    "connector_shapes": [
+      {
+        "value": "straight",
+        "count": 149
+      },
+      {
+        "value": "right_angled_polyline",
+        "count": 53
+      },
+      {
+        "value": "curve",
+        "count": 2
+      }
+    ],
+    "arrow_styles": [
+      {
+        "value": "line_arrow",
+        "count": 112
+      },
+      {
+        "value": "none",
+        "count": 92
+      }
+    ]
+  }
+}

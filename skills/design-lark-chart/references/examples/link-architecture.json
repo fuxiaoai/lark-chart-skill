@@ -1,0 +1,676 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "type": "frame",
+      "id": "root",
+      "layout": "vertical",
+      "gap": 16,
+      "padding": 24,
+      "alignItems": "stretch",
+      "width": "fit-content",
+      "height": "fit-content",
+      "children": [
+        {
+          "type": "text",
+          "id": "title",
+          "text": "评测系统端到端链路架构图",
+          "fontSize": 18,
+          "textColor": "#1f2329",
+          "width": "fit-content",
+          "height": "fit-content",
+          "fontWeight": "bold"
+        },
+        {
+          "type": "frame",
+          "id": "la-columns",
+          "layout": "horizontal",
+          "gap": 12,
+          "padding": 0,
+          "alignItems": "stretch",
+          "fillColor": "#ffffff00",
+          "borderColor": "#ffffff00",
+          "borderWidth": 1,
+          "width": "fit-content",
+          "height": "fit-content",
+          "children": [
+            {
+              "type": "frame",
+              "id": "la-col-1",
+              "layout": "vertical",
+              "gap": 10,
+              "padding": 12,
+              "alignItems": "center",
+              "fillColor": "#ffffff",
+              "borderColor": "#e4e7ed",
+              "borderWidth": 1,
+              "width": "fit-content",
+              "height": "fit-content",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "la-h-1",
+                  "text": "入口层",
+                  "fontSize": 12,
+                  "textColor": "#6b7280",
+                  "width": "fit-content",
+                  "height": "fit-content"
+                },
+                {
+                  "type": "rect",
+                  "id": "la-head-1",
+                  "width": 140,
+                  "height": 28,
+                  "borderRadius": 14,
+                  "text": "评测用户",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#5b7fcb",
+                  "textColor": "#1f2329",
+                  "fontSize": 11
+                },
+                {
+                  "type": "rect",
+                  "id": "la-1-1",
+                  "width": 132,
+                  "height": 36,
+                  "borderRadius": 4,
+                  "text": "提出需求",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#5b7fcb",
+                  "textColor": "#1f2329",
+                  "fontSize": 12
+                },
+                {
+                  "type": "rect",
+                  "id": "la-1-2",
+                  "width": 132,
+                  "height": 36,
+                  "borderRadius": 4,
+                  "text": "OpenAPI 调用",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#5b7fcb",
+                  "textColor": "#1f2329",
+                  "fontSize": 12
+                },
+                {
+                  "type": "rect",
+                  "id": "la-1-3",
+                  "width": 132,
+                  "height": 36,
+                  "borderRadius": 4,
+                  "text": "反馈回看",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#5b7fcb",
+                  "textColor": "#1f2329",
+                  "fontSize": 12
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "la-gap-arrow-1",
+              "text": "→",
+              "fontSize": 24,
+              "textColor": "#5b7fcb",
+              "width": "fit-content",
+              "height": "fit-content"
+            },
+            {
+              "type": "frame",
+              "id": "la-col-2",
+              "layout": "vertical",
+              "gap": 10,
+              "padding": 12,
+              "alignItems": "center",
+              "fillColor": "#ffffff",
+              "borderColor": "#e4e7ed",
+              "borderWidth": 1,
+              "width": "fit-content",
+              "height": "fit-content",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "la-h-2",
+                  "text": "网关层",
+                  "fontSize": 12,
+                  "textColor": "#6b7280",
+                  "width": "fit-content",
+                  "height": "fit-content"
+                },
+                {
+                  "type": "rect",
+                  "id": "la-head-2",
+                  "width": 140,
+                  "height": 28,
+                  "borderRadius": 14,
+                  "text": "网关层",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#8a6fd1",
+                  "textColor": "#1f2329",
+                  "fontSize": 11
+                },
+                {
+                  "type": "rect",
+                  "id": "la-2-1",
+                  "width": 132,
+                  "height": 36,
+                  "borderRadius": 4,
+                  "text": "任务校验",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#8a6fd1",
+                  "textColor": "#1f2329",
+                  "fontSize": 12
+                },
+                {
+                  "type": "rect",
+                  "id": "la-2-2",
+                  "width": 132,
+                  "height": 36,
+                  "borderRadius": 4,
+                  "text": "用户分群",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#8a6fd1",
+                  "textColor": "#1f2329",
+                  "fontSize": 12
+                },
+                {
+                  "type": "rect",
+                  "id": "la-2-3",
+                  "width": 132,
+                  "height": 36,
+                  "borderRadius": 4,
+                  "text": "状态审计",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#8a6fd1",
+                  "textColor": "#1f2329",
+                  "fontSize": 12
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "la-gap-arrow-2",
+              "text": "→",
+              "fontSize": 24,
+              "textColor": "#5b7fcb",
+              "width": "fit-content",
+              "height": "fit-content"
+            },
+            {
+              "type": "frame",
+              "id": "la-col-3",
+              "layout": "vertical",
+              "gap": 10,
+              "padding": 12,
+              "alignItems": "center",
+              "fillColor": "#ffffff",
+              "borderColor": "#e4e7ed",
+              "borderWidth": 1,
+              "width": "fit-content",
+              "height": "fit-content",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "la-h-3",
+                  "text": "评测任务层",
+                  "fontSize": 12,
+                  "textColor": "#6b7280",
+                  "width": "fit-content",
+                  "height": "fit-content"
+                },
+                {
+                  "type": "rect",
+                  "id": "la-head-3",
+                  "width": 140,
+                  "height": 28,
+                  "borderRadius": 14,
+                  "text": "任务服务",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#4e9d6d",
+                  "textColor": "#1f2329",
+                  "fontSize": 11
+                },
+                {
+                  "type": "rect",
+                  "id": "la-3-1",
+                  "width": 132,
+                  "height": 36,
+                  "borderRadius": 4,
+                  "text": "创建任务",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#4e9d6d",
+                  "textColor": "#1f2329",
+                  "fontSize": 12
+                },
+                {
+                  "type": "rect",
+                  "id": "la-3-2",
+                  "width": 132,
+                  "height": 36,
+                  "borderRadius": 4,
+                  "text": "执行排队",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#4e9d6d",
+                  "textColor": "#1f2329",
+                  "fontSize": 12
+                },
+                {
+                  "type": "rect",
+                  "id": "la-3-3",
+                  "width": 132,
+                  "height": 36,
+                  "borderRadius": 4,
+                  "text": "写入队列",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#4e9d6d",
+                  "textColor": "#1f2329",
+                  "fontSize": 12
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "la-gap-arrow-3",
+              "text": "→",
+              "fontSize": 24,
+              "textColor": "#5b7fcb",
+              "width": "fit-content",
+              "height": "fit-content"
+            },
+            {
+              "type": "frame",
+              "id": "la-col-4",
+              "layout": "vertical",
+              "gap": 10,
+              "padding": 12,
+              "alignItems": "center",
+              "fillColor": "#ffffff",
+              "borderColor": "#e4e7ed",
+              "borderWidth": 1,
+              "width": "fit-content",
+              "height": "fit-content",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "la-h-4",
+                  "text": "模型执行层",
+                  "fontSize": 12,
+                  "textColor": "#6b7280",
+                  "width": "fit-content",
+                  "height": "fit-content"
+                },
+                {
+                  "type": "rect",
+                  "id": "la-head-4",
+                  "width": 140,
+                  "height": 28,
+                  "borderRadius": 14,
+                  "text": "调度引擎",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#d7b34b",
+                  "textColor": "#1f2329",
+                  "fontSize": 11
+                },
+                {
+                  "type": "rect",
+                  "id": "la-4-1",
+                  "width": 132,
+                  "height": 36,
+                  "borderRadius": 4,
+                  "text": "拉取样本",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#d7b34b",
+                  "textColor": "#1f2329",
+                  "fontSize": 12
+                },
+                {
+                  "type": "rect",
+                  "id": "la-4-2",
+                  "width": 132,
+                  "height": 36,
+                  "borderRadius": 4,
+                  "text": "调用模型",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#d7b34b",
+                  "textColor": "#1f2329",
+                  "fontSize": 12
+                },
+                {
+                  "type": "rect",
+                  "id": "la-4-3",
+                  "width": 132,
+                  "height": 36,
+                  "borderRadius": 4,
+                  "text": "返回响应",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#d7b34b",
+                  "textColor": "#1f2329",
+                  "fontSize": 12
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "la-gap-arrow-4",
+              "text": "→",
+              "fontSize": 24,
+              "textColor": "#5b7fcb",
+              "width": "fit-content",
+              "height": "fit-content"
+            },
+            {
+              "type": "frame",
+              "id": "la-col-5",
+              "layout": "vertical",
+              "gap": 10,
+              "padding": 12,
+              "alignItems": "center",
+              "fillColor": "#ffffff",
+              "borderColor": "#e4e7ed",
+              "borderWidth": 1,
+              "width": "fit-content",
+              "height": "fit-content",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "la-h-5",
+                  "text": "指标计算层",
+                  "fontSize": 12,
+                  "textColor": "#6b7280",
+                  "width": "fit-content",
+                  "height": "fit-content"
+                },
+                {
+                  "type": "rect",
+                  "id": "la-head-5",
+                  "width": 140,
+                  "height": 28,
+                  "borderRadius": 14,
+                  "text": "指标服务",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#d87a7a",
+                  "textColor": "#1f2329",
+                  "fontSize": 11
+                },
+                {
+                  "type": "rect",
+                  "id": "la-5-1",
+                  "width": 132,
+                  "height": 36,
+                  "borderRadius": 4,
+                  "text": "计算指标",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#d87a7a",
+                  "textColor": "#1f2329",
+                  "fontSize": 12
+                },
+                {
+                  "type": "rect",
+                  "id": "la-5-2",
+                  "width": 132,
+                  "height": 36,
+                  "borderRadius": 4,
+                  "text": "聚合维度",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#d87a7a",
+                  "textColor": "#1f2329",
+                  "fontSize": 12
+                },
+                {
+                  "type": "rect",
+                  "id": "la-5-3",
+                  "width": 132,
+                  "height": 36,
+                  "borderRadius": 4,
+                  "text": "输出洞察",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#d87a7a",
+                  "textColor": "#1f2329",
+                  "fontSize": 12
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "la-gap-arrow-5",
+              "text": "→",
+              "fontSize": 24,
+              "textColor": "#5b7fcb",
+              "width": "fit-content",
+              "height": "fit-content"
+            },
+            {
+              "type": "frame",
+              "id": "la-col-6",
+              "layout": "vertical",
+              "gap": 10,
+              "padding": 12,
+              "alignItems": "center",
+              "fillColor": "#ffffff",
+              "borderColor": "#e4e7ed",
+              "borderWidth": 1,
+              "width": "fit-content",
+              "height": "fit-content",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "la-h-6",
+                  "text": "报告与运营",
+                  "fontSize": 12,
+                  "textColor": "#6b7280",
+                  "width": "fit-content",
+                  "height": "fit-content"
+                },
+                {
+                  "type": "rect",
+                  "id": "la-head-6",
+                  "width": 140,
+                  "height": 28,
+                  "borderRadius": 14,
+                  "text": "报告服务",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#5b7fcb",
+                  "textColor": "#1f2329",
+                  "fontSize": 11
+                },
+                {
+                  "type": "rect",
+                  "id": "la-6-1",
+                  "width": 132,
+                  "height": 36,
+                  "borderRadius": 4,
+                  "text": "生成报告",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#5b7fcb",
+                  "textColor": "#1f2329",
+                  "fontSize": 12
+                },
+                {
+                  "type": "rect",
+                  "id": "la-6-2",
+                  "width": 132,
+                  "height": 36,
+                  "borderRadius": 4,
+                  "text": "触发回评",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#5b7fcb",
+                  "textColor": "#1f2329",
+                  "fontSize": 12
+                },
+                {
+                  "type": "rect",
+                  "id": "la-6-3",
+                  "width": 132,
+                  "height": 36,
+                  "borderRadius": 4,
+                  "text": "沉淀策略",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#5b7fcb",
+                  "textColor": "#1f2329",
+                  "fontSize": 12
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "la-1-1",
+        "to": "la-1-2",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "straight",
+        "lineColor": "#b8bec8",
+        "lineWidth": 1,
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "la-1-2",
+        "to": "la-1-3",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "straight",
+        "lineColor": "#b8bec8",
+        "lineWidth": 1,
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "la-2-1",
+        "to": "la-2-2",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "straight",
+        "lineColor": "#b8bec8",
+        "lineWidth": 1,
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "la-2-2",
+        "to": "la-2-3",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "straight",
+        "lineColor": "#b8bec8",
+        "lineWidth": 1,
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "la-3-1",
+        "to": "la-3-2",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "straight",
+        "lineColor": "#b8bec8",
+        "lineWidth": 1,
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "la-3-2",
+        "to": "la-3-3",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "straight",
+        "lineColor": "#b8bec8",
+        "lineWidth": 1,
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "la-4-1",
+        "to": "la-4-2",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "straight",
+        "lineColor": "#b8bec8",
+        "lineWidth": 1,
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "la-4-2",
+        "to": "la-4-3",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "straight",
+        "lineColor": "#b8bec8",
+        "lineWidth": 1,
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "la-5-1",
+        "to": "la-5-2",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "straight",
+        "lineColor": "#b8bec8",
+        "lineWidth": 1,
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "la-5-2",
+        "to": "la-5-3",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "straight",
+        "lineColor": "#b8bec8",
+        "lineWidth": 1,
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "la-6-1",
+        "to": "la-6-2",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "straight",
+        "lineColor": "#b8bec8",
+        "lineWidth": 1,
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "la-6-2",
+        "to": "la-6-3",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "straight",
+        "lineColor": "#b8bec8",
+        "lineWidth": 1,
+        "endArrow": "none"
+      }
+    }
+  ],
+  "_scenario": "实时直播推流链路"
+}

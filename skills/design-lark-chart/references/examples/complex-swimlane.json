@@ -1,0 +1,418 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "type": "frame",
+      "id": "root",
+      "layout": "vertical",
+      "gap": 16,
+      "padding": 24,
+      "alignItems": "stretch",
+      "width": "fit-content",
+      "height": "fit-content",
+      "children": [
+        {
+          "type": "text",
+          "id": "title",
+          "text": "SaaS 新客户签约流程",
+          "fontSize": 18,
+          "textColor": "#ffffff",
+          "width": "fit-content",
+          "height": "fit-content",
+          "fontWeight": "bold"
+        },
+        {
+          "type": "frame",
+          "id": "cx-columns",
+          "layout": "horizontal",
+          "gap": 16,
+          "padding": 0,
+          "alignItems": "stretch",
+          "fillColor": "#ffffff00",
+          "borderColor": "#ffffff00",
+          "borderWidth": 1,
+          "width": "fit-content",
+          "height": "fit-content",
+          "children": [
+            {
+              "type": "frame",
+              "id": "cx-col-1",
+              "layout": "vertical",
+              "gap": 10,
+              "padding": 12,
+              "alignItems": "center",
+              "fillColor": "#eef3ff",
+              "borderColor": "#e4e7ed",
+              "borderWidth": 1,
+              "width": "fit-content",
+              "height": "fit-content",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "cx-h-1",
+                  "text": "销售",
+                  "fontSize": 13,
+                  "textColor": "#1f2329",
+                  "width": "fit-content",
+                  "height": "fit-content",
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "rect",
+                  "id": "cx-1-1",
+                  "width": 138,
+                  "height": 36,
+                  "borderRadius": 4,
+                  "text": "线索跟进",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#5b7fcb",
+                  "textColor": "#1f2329",
+                  "fontSize": 12
+                },
+                {
+                  "type": "rect",
+                  "id": "cx-1-2",
+                  "width": 138,
+                  "height": 36,
+                  "borderRadius": 4,
+                  "text": "需求调研",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#5b7fcb",
+                  "textColor": "#1f2329",
+                  "fontSize": 12
+                },
+                {
+                  "type": "rect",
+                  "id": "cx-1-3",
+                  "width": 138,
+                  "height": 36,
+                  "borderRadius": 4,
+                  "text": "方案报价",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#5b7fcb",
+                  "textColor": "#1f2329",
+                  "fontSize": 12
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "cx-columns-arrow-1",
+              "text": "→",
+              "fontSize": 24,
+              "textColor": "#5b7fcb",
+              "width": "fit-content",
+              "height": "fit-content"
+            },
+            {
+              "type": "frame",
+              "id": "cx-col-2",
+              "layout": "vertical",
+              "gap": 10,
+              "padding": 12,
+              "alignItems": "center",
+              "fillColor": "#ffffff",
+              "borderColor": "#e4e7ed",
+              "borderWidth": 1,
+              "width": "fit-content",
+              "height": "fit-content",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "cx-h-2",
+                  "text": "法务",
+                  "fontSize": 13,
+                  "textColor": "#1f2329",
+                  "width": "fit-content",
+                  "height": "fit-content",
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "rect",
+                  "id": "cx-2-1",
+                  "width": 138,
+                  "height": 36,
+                  "borderRadius": 4,
+                  "text": "合同起草",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#c6cbd3",
+                  "textColor": "#1f2329",
+                  "fontSize": 12
+                },
+                {
+                  "type": "rect",
+                  "id": "cx-2-2",
+                  "width": 138,
+                  "height": 36,
+                  "borderRadius": 4,
+                  "text": "条款审核",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#c6cbd3",
+                  "textColor": "#1f2329",
+                  "fontSize": 12
+                },
+                {
+                  "type": "rect",
+                  "id": "cx-2-3",
+                  "width": 138,
+                  "height": 36,
+                  "borderRadius": 4,
+                  "text": "风险标注",
+                  "fillColor": "#fdebec",
+                  "borderColor": "#c94c4c",
+                  "textColor": "#1f2329",
+                  "fontSize": 12
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "cx-columns-arrow-2",
+              "text": "→",
+              "fontSize": 24,
+              "textColor": "#5b7fcb",
+              "width": "fit-content",
+              "height": "fit-content"
+            },
+            {
+              "type": "frame",
+              "id": "cx-col-3",
+              "layout": "vertical",
+              "gap": 10,
+              "padding": 12,
+              "alignItems": "center",
+              "fillColor": "#ffffff",
+              "borderColor": "#e4e7ed",
+              "borderWidth": 1,
+              "width": "fit-content",
+              "height": "fit-content",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "cx-h-3",
+                  "text": "财务",
+                  "fontSize": 13,
+                  "textColor": "#1f2329",
+                  "width": "fit-content",
+                  "height": "fit-content",
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "rect",
+                  "id": "cx-3-1",
+                  "width": 138,
+                  "height": 36,
+                  "borderRadius": 4,
+                  "text": "信用评估",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#c6cbd3",
+                  "textColor": "#1f2329",
+                  "fontSize": 12
+                },
+                {
+                  "type": "rect",
+                  "id": "cx-3-2",
+                  "width": 138,
+                  "height": 36,
+                  "borderRadius": 4,
+                  "text": "账期审批",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#c6cbd3",
+                  "textColor": "#1f2329",
+                  "fontSize": 12
+                },
+                {
+                  "type": "rect",
+                  "id": "cx-3-3",
+                  "width": 138,
+                  "height": 36,
+                  "borderRadius": 4,
+                  "text": "开票确认",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#c6cbd3",
+                  "textColor": "#1f2329",
+                  "fontSize": 12
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "cx-columns-arrow-3",
+              "text": "→",
+              "fontSize": 24,
+              "textColor": "#5b7fcb",
+              "width": "fit-content",
+              "height": "fit-content"
+            },
+            {
+              "type": "frame",
+              "id": "cx-col-4",
+              "layout": "vertical",
+              "gap": 10,
+              "padding": 12,
+              "alignItems": "center",
+              "fillColor": "#ffffff",
+              "borderColor": "#e4e7ed",
+              "borderWidth": 1,
+              "width": "fit-content",
+              "height": "fit-content",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "cx-h-4",
+                  "text": "交付",
+                  "fontSize": 13,
+                  "textColor": "#1f2329",
+                  "width": "fit-content",
+                  "height": "fit-content",
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "rect",
+                  "id": "cx-4-1",
+                  "width": 138,
+                  "height": 36,
+                  "borderRadius": 4,
+                  "text": "环境开通",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#c6cbd3",
+                  "textColor": "#1f2329",
+                  "fontSize": 12
+                },
+                {
+                  "type": "rect",
+                  "id": "cx-4-2",
+                  "width": 138,
+                  "height": 36,
+                  "borderRadius": 4,
+                  "text": "培训实施",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#c6cbd3",
+                  "textColor": "#1f2329",
+                  "fontSize": 12
+                },
+                {
+                  "type": "rect",
+                  "id": "cx-4-3",
+                  "width": 138,
+                  "height": 36,
+                  "borderRadius": 4,
+                  "text": "验收上线",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#c6cbd3",
+                  "textColor": "#1f2329",
+                  "fontSize": 12
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "cx-1-1",
+        "to": "cx-1-2",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "straight",
+        "lineColor": "#b8bec8",
+        "lineWidth": 1,
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "cx-1-2",
+        "to": "cx-1-3",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "straight",
+        "lineColor": "#b8bec8",
+        "lineWidth": 1,
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "cx-2-1",
+        "to": "cx-2-2",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "straight",
+        "lineColor": "#b8bec8",
+        "lineWidth": 1,
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "cx-2-2",
+        "to": "cx-2-3",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "straight",
+        "lineColor": "#b8bec8",
+        "lineWidth": 1,
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "cx-3-1",
+        "to": "cx-3-2",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "straight",
+        "lineColor": "#b8bec8",
+        "lineWidth": 1,
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "cx-3-2",
+        "to": "cx-3-3",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "straight",
+        "lineColor": "#b8bec8",
+        "lineWidth": 1,
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "cx-4-1",
+        "to": "cx-4-2",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "straight",
+        "lineColor": "#b8bec8",
+        "lineWidth": 1,
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "cx-4-2",
+        "to": "cx-4-3",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "straight",
+        "lineColor": "#b8bec8",
+        "lineWidth": 1,
+        "endArrow": "none"
+      }
+    }
+  ],
+  "_scenario": "SaaS 新客户签约交付复杂泳道"
+}

@@ -1,0 +1,214 @@
+{
+  "id": "business-architecture",
+  "cn": "业务架构图",
+  "use_case": "业务能力、模块分层、平台组成",
+  "source_token": "CStvw5oF2h9gLLby3vAczRZZnTf",
+  "node_count": 80,
+  "style": {
+    "palette": {
+      "fill_colors": [
+        {
+          "value": "#ffffff",
+          "count": 23
+        },
+        {
+          "value": "#fbfcfd",
+          "count": 1
+        },
+        {
+          "value": "#f2f6ff",
+          "count": 1
+        },
+        {
+          "value": "#7b67c9",
+          "count": 1
+        },
+        {
+          "value": "#f3f4f6",
+          "count": 1
+        },
+        {
+          "value": "#eaf7ee",
+          "count": 1
+        },
+        {
+          "value": "#f3eeff",
+          "count": 1
+        },
+        {
+          "value": "#5b7fcb",
+          "count": 1
+        },
+        {
+          "value": "#4e9d6d",
+          "count": 1
+        }
+      ],
+      "border_colors": [
+        {
+          "value": "#dadde3",
+          "count": 13
+        },
+        {
+          "value": "#d6dae2",
+          "count": 11
+        },
+        {
+          "value": "#b8bec8",
+          "count": 11
+        },
+        {
+          "value": "#d85a5a",
+          "count": 4
+        },
+        {
+          "value": "#5b7fcb",
+          "count": 1
+        },
+        {
+          "value": "#4e9d6d",
+          "count": 1
+        },
+        {
+          "value": "#7b67c9",
+          "count": 1
+        }
+      ],
+      "text_colors": [
+        {
+          "value": "#1f2329",
+          "count": 54
+        },
+        {
+          "value": "#8a9099",
+          "count": 5
+        },
+        {
+          "value": "#6b7280",
+          "count": 2
+        },
+        {
+          "value": "#5b7fcb",
+          "count": 1
+        },
+        {
+          "value": "#7b67c9",
+          "count": 1
+        },
+        {
+          "value": "#4e9d6d",
+          "count": 1
+        }
+      ]
+    },
+    "typography": {
+      "font_sizes": [
+        {
+          "value": 14,
+          "count": 54
+        },
+        {
+          "value": 18,
+          "count": 4
+        },
+        {
+          "value": 12,
+          "count": 4
+        },
+        {
+          "value": 16,
+          "count": 1
+        },
+        {
+          "value": 30,
+          "count": 1
+        }
+      ],
+      "font_weights": [
+        {
+          "value": "regular",
+          "count": 36
+        },
+        {
+          "value": "bold",
+          "count": 28
+        }
+      ],
+      "horizontal_align": [
+        {
+          "value": "center",
+          "count": 42
+        },
+        {
+          "value": "left",
+          "count": 22
+        }
+      ]
+    },
+    "shape": {
+      "composite_types": [
+        {
+          "value": "round_rect",
+          "count": 27
+        },
+        {
+          "value": "ellipse",
+          "count": 3
+        },
+        {
+          "value": "rect",
+          "count": 1
+        }
+      ],
+      "border_widths": [
+        {
+          "value": "narrow",
+          "count": 18
+        },
+        {
+          "value": "extra_narrow",
+          "count": 9
+        }
+      ],
+      "border_styles": [
+        {
+          "value": "solid",
+          "count": 27
+        },
+        {
+          "value": "none",
+          "count": 4
+        }
+      ]
+    },
+    "connector": {
+      "shapes": [
+        {
+          "value": "straight",
+          "count": 15
+        }
+      ],
+      "arrow_styles": [
+        {
+          "value": "line_arrow",
+          "count": 11
+        },
+        {
+          "value": "none",
+          "count": 4
+        }
+      ],
+      "line_widths": [
+        {
+          "value": "narrow",
+          "count": 11
+        },
+        {
+          "value": "medium",
+          "count": 4
+        }
+      ]
+    },
+    "uses_inline_svg_decoration": true
+  }
+}

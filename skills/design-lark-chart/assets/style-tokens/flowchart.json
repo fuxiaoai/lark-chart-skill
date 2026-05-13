@@ -1,0 +1,154 @@
+{
+  "id": "flowchart",
+  "cn": "流程图",
+  "use_case": "单角色流程、审批/判断步骤",
+  "source_token": "UzuqwjaZlhD6pSbgACHcJZzInig",
+  "node_count": 29,
+  "style": {
+    "palette": {
+      "fill_colors": [
+        {
+          "value": "#ffffff",
+          "count": 4
+        },
+        {
+          "value": "#f3f1eb",
+          "count": 2
+        },
+        {
+          "value": "#fff1f0",
+          "count": 1
+        },
+        {
+          "value": "#f7f8fa",
+          "count": 1
+        }
+      ],
+      "border_colors": [
+        {
+          "value": "#98a2b3",
+          "count": 8
+        },
+        {
+          "value": "#5b8ff9",
+          "count": 4
+        },
+        {
+          "value": "#8e877a",
+          "count": 2
+        },
+        {
+          "value": "#e86868",
+          "count": 1
+        }
+      ],
+      "text_colors": [
+        {
+          "value": "#1f2329",
+          "count": 17
+        },
+        {
+          "value": "#98a2b3",
+          "count": 2
+        },
+        {
+          "value": "#86909c",
+          "count": 1
+        }
+      ]
+    },
+    "typography": {
+      "font_sizes": [
+        {
+          "value": 14,
+          "count": 16
+        },
+        {
+          "value": 11,
+          "count": 2
+        },
+        {
+          "value": 12,
+          "count": 1
+        },
+        {
+          "value": 24,
+          "count": 1
+        }
+      ],
+      "font_weights": [
+        {
+          "value": "regular",
+          "count": 11
+        },
+        {
+          "value": "bold",
+          "count": 9
+        }
+      ],
+      "horizontal_align": [
+        {
+          "value": "center",
+          "count": 20
+        }
+      ]
+    },
+    "shape": {
+      "composite_types": [
+        {
+          "value": "round_rect",
+          "count": 5
+        },
+        {
+          "value": "round_rect2",
+          "count": 2
+        },
+        {
+          "value": "rect",
+          "count": 1
+        }
+      ],
+      "border_widths": [
+        {
+          "value": "narrow",
+          "count": 7
+        }
+      ],
+      "border_styles": [
+        {
+          "value": "solid",
+          "count": 7
+        },
+        {
+          "value": "none",
+          "count": 1
+        }
+      ]
+    },
+    "connector": {
+      "shapes": [
+        {
+          "value": "straight",
+          "count": 6
+        },
+        {
+          "value": "right_angled_polyline",
+          "count": 2
+        }
+      ],
+      "arrow_styles": [
+        {
+          "value": "line_arrow",
+          "count": 8
+        }
+      ],
+      "line_widths": [
+        {
+          "value": "narrow",
+          "count": 8
+        }
+      ]
+    },
+    "uses_inline_svg_decoration": true
+  }
+}

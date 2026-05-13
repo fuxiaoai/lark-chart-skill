@@ -1,0 +1,8 @@
+# Generated local artifacts
+data/
+tmp/
+logs/
+*.log
+
+# macOS
+.DS_Store

@@ -1,0 +1,563 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "type": "frame",
+      "id": "root",
+      "layout": "vertical",
+      "gap": 20,
+      "padding": 24,
+      "alignItems": "stretch",
+      "fillColor": "#ffffff",
+      "borderColor": "#dadde3",
+      "borderWidth": 1,
+      "width": "fit-content",
+      "height": "fit-content",
+      "children": [
+        {
+          "type": "text",
+          "id": "title",
+          "text": "评测系统业务架构图",
+          "fontSize": 18,
+          "textColor": "#1f2329",
+          "width": "fit-content",
+          "height": "fit-content",
+          "fontWeight": "bold"
+        },
+        {
+          "type": "text",
+          "id": "subtitle",
+          "text": "从评测入口到报告复盘的业务能力分层",
+          "fontSize": 12,
+          "textColor": "#6b7280",
+          "width": "fit-content",
+          "height": "fit-content"
+        },
+        {
+          "type": "frame",
+          "id": "ba-top-tags",
+          "layout": "horizontal",
+          "gap": 12,
+          "padding": 0,
+          "alignItems": "stretch",
+          "fillColor": "#ffffff00",
+          "borderColor": "#ffffff00",
+          "borderWidth": 1,
+          "width": "fit-content",
+          "height": "fit-content",
+          "children": [
+            {
+              "type": "rect",
+              "id": "ba-tag-1",
+              "width": 210,
+              "height": 28,
+              "borderRadius": 4,
+              "text": "降低出题与评估成本",
+              "fillColor": "#ffffff",
+              "borderColor": "#dadde3",
+              "textColor": "#1f2329",
+              "fontSize": 12
+            },
+            {
+              "type": "rect",
+              "id": "ba-tag-2",
+              "width": 210,
+              "height": 28,
+              "borderRadius": 4,
+              "text": "提升业务效率与一致性",
+              "fillColor": "#ffffff",
+              "borderColor": "#dadde3",
+              "textColor": "#1f2329",
+              "fontSize": 12
+            },
+            {
+              "type": "rect",
+              "id": "ba-tag-3",
+              "width": 210,
+              "height": 28,
+              "borderRadius": 4,
+              "text": "结果可解释、可运营",
+              "fillColor": "#ffffff",
+              "borderColor": "#dadde3",
+              "textColor": "#1f2329",
+              "fontSize": 12
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ba-columns",
+          "layout": "horizontal",
+          "gap": 16,
+          "padding": 0,
+          "alignItems": "stretch",
+          "fillColor": "#ffffff00",
+          "borderColor": "#ffffff00",
+          "borderWidth": 1,
+          "width": "fit-content",
+          "height": "fit-content",
+          "children": [
+            {
+              "type": "frame",
+              "id": "ba-col1",
+              "layout": "vertical",
+              "gap": 12,
+              "padding": 16,
+              "alignItems": "stretch",
+              "fillColor": "#eaf0ff",
+              "borderColor": "#5b7fcb",
+              "borderWidth": 1,
+              "width": "fit-content",
+              "height": "fit-content",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ba-col1-title",
+                  "text": "用户触点层",
+                  "fontSize": 14,
+                  "textColor": "#1f2329",
+                  "width": "fit-content",
+                  "height": "fit-content",
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "rect",
+                  "id": "ba-1-1",
+                  "width": 180,
+                  "height": 40,
+                  "borderRadius": 6,
+                  "text": "评测控制台",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#5b7fcb",
+                  "textColor": "#1f2329",
+                  "fontSize": 13
+                },
+                {
+                  "type": "rect",
+                  "id": "ba-1-2",
+                  "width": 180,
+                  "height": 40,
+                  "borderRadius": 6,
+                  "text": "OpenAPI",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#5b7fcb",
+                  "textColor": "#1f2329",
+                  "fontSize": 13
+                },
+                {
+                  "type": "rect",
+                  "id": "ba-1-3",
+                  "width": 180,
+                  "height": 40,
+                  "borderRadius": 6,
+                  "text": "报告分享页",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#5b7fcb",
+                  "textColor": "#1f2329",
+                  "fontSize": 13
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ba-col2",
+              "layout": "vertical",
+              "gap": 12,
+              "padding": 16,
+              "alignItems": "stretch",
+              "fillColor": "#f1ebff",
+              "borderColor": "#8a6fd1",
+              "borderWidth": 1,
+              "width": "fit-content",
+              "height": "fit-content",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ba-col2-title",
+                  "text": "业务服务层",
+                  "fontSize": 14,
+                  "textColor": "#1f2329",
+                  "width": "fit-content",
+                  "height": "fit-content",
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "rect",
+                  "id": "ba-2-1",
+                  "width": 180,
+                  "height": 40,
+                  "borderRadius": 6,
+                  "text": "数据集管理",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#8a6fd1",
+                  "textColor": "#1f2329",
+                  "fontSize": 13
+                },
+                {
+                  "type": "rect",
+                  "id": "ba-2-2",
+                  "width": 180,
+                  "height": 40,
+                  "borderRadius": 6,
+                  "text": "评估对象管理",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#8a6fd1",
+                  "textColor": "#1f2329",
+                  "fontSize": 13
+                },
+                {
+                  "type": "rect",
+                  "id": "ba-2-3",
+                  "width": 180,
+                  "height": 40,
+                  "borderRadius": 6,
+                  "text": "评测任务中心",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#8a6fd1",
+                  "textColor": "#1f2329",
+                  "fontSize": 13
+                },
+                {
+                  "type": "rect",
+                  "id": "ba-2-4",
+                  "width": 180,
+                  "height": 40,
+                  "borderRadius": 6,
+                  "text": "报告中心",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#8a6fd1",
+                  "textColor": "#1f2329",
+                  "fontSize": 13
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ba-col3",
+              "layout": "vertical",
+              "gap": 12,
+              "padding": 16,
+              "alignItems": "stretch",
+              "fillColor": "#edf8f1",
+              "borderColor": "#4e9d6d",
+              "borderWidth": 1,
+              "width": "fit-content",
+              "height": "fit-content",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ba-col3-title",
+                  "text": "智能评测层",
+                  "fontSize": 14,
+                  "textColor": "#1f2329",
+                  "width": "fit-content",
+                  "height": "fit-content",
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "rect",
+                  "id": "ba-3-1",
+                  "width": 180,
+                  "height": 40,
+                  "borderRadius": 6,
+                  "text": "样本抽样",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#4e9d6d",
+                  "textColor": "#1f2329",
+                  "fontSize": 13
+                },
+                {
+                  "type": "rect",
+                  "id": "ba-3-2",
+                  "width": 180,
+                  "height": 40,
+                  "borderRadius": 6,
+                  "text": "模型调用",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#4e9d6d",
+                  "textColor": "#1f2329",
+                  "fontSize": 13
+                },
+                {
+                  "type": "rect",
+                  "id": "ba-3-3",
+                  "width": 180,
+                  "height": 40,
+                  "borderRadius": 6,
+                  "text": "指标计算",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#4e9d6d",
+                  "textColor": "#1f2329",
+                  "fontSize": 13
+                },
+                {
+                  "type": "rect",
+                  "id": "ba-3-4",
+                  "width": 180,
+                  "height": 40,
+                  "borderRadius": 6,
+                  "text": "结果解释",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#4e9d6d",
+                  "textColor": "#1f2329",
+                  "fontSize": 13
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ba-base",
+          "layout": "horizontal",
+          "gap": 12,
+          "padding": 12,
+          "alignItems": "stretch",
+          "fillColor": "#f5f6f8",
+          "borderColor": "#dadde3",
+          "borderWidth": 1,
+          "width": "fit-content",
+          "height": "fit-content",
+          "children": [
+            {
+              "type": "text",
+              "id": "ba-base-title",
+              "text": "AI / 数据 / 工具底座",
+              "fontSize": 13,
+              "textColor": "#1f2329",
+              "width": "fit-content",
+              "height": "fit-content",
+              "fontWeight": "bold"
+            },
+            {
+              "type": "rect",
+              "id": "ba-base-1",
+              "width": 150,
+              "height": 36,
+              "borderRadius": 4,
+              "text": "MySQL",
+              "fillColor": "#ffffff",
+              "borderColor": "#dadde3",
+              "textColor": "#1f2329",
+              "fontSize": 12
+            },
+            {
+              "type": "rect",
+              "id": "ba-base-2",
+              "width": 150,
+              "height": 36,
+              "borderRadius": 4,
+              "text": "Redis",
+              "fillColor": "#ffffff",
+              "borderColor": "#dadde3",
+              "textColor": "#1f2329",
+              "fontSize": 12
+            },
+            {
+              "type": "rect",
+              "id": "ba-base-3",
+              "width": 150,
+              "height": 36,
+              "borderRadius": 4,
+              "text": "Kafka",
+              "fillColor": "#ffffff",
+              "borderColor": "#dadde3",
+              "textColor": "#1f2329",
+              "fontSize": 12
+            },
+            {
+              "type": "rect",
+              "id": "ba-base-4",
+              "width": 150,
+              "height": 36,
+              "borderRadius": 4,
+              "text": "对象存储",
+              "fillColor": "#ffffff",
+              "borderColor": "#dadde3",
+              "textColor": "#1f2329",
+              "fontSize": 12
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ba-issues",
+          "layout": "horizontal",
+          "gap": 12,
+          "padding": 0,
+          "alignItems": "stretch",
+          "fillColor": "#ffffff00",
+          "borderColor": "#ffffff00",
+          "borderWidth": 1,
+          "width": "fit-content",
+          "height": "fit-content",
+          "children": [
+            {
+              "type": "text",
+              "id": "ba-issues-title",
+              "text": "当前业务现状与痛点（原因因素）",
+              "fontSize": 12,
+              "textColor": "#1f2329",
+              "width": "fit-content",
+              "height": "fit-content",
+              "fontWeight": "bold"
+            },
+            {
+              "type": "rect",
+              "id": "ba-issue-1",
+              "width": 150,
+              "height": 30,
+              "borderRadius": 4,
+              "text": "出题效率低",
+              "fillColor": "#ffffff",
+              "borderColor": "#efb0b0",
+              "textColor": "#1f2329",
+              "fontSize": 12
+            },
+            {
+              "type": "rect",
+              "id": "ba-issue-2",
+              "width": 150,
+              "height": 30,
+              "borderRadius": 4,
+              "text": "流程过重",
+              "fillColor": "#ffffff",
+              "borderColor": "#efb0b0",
+              "textColor": "#1f2329",
+              "fontSize": 12
+            },
+            {
+              "type": "rect",
+              "id": "ba-issue-3",
+              "width": 150,
+              "height": 30,
+              "borderRadius": 4,
+              "text": "结果不透明",
+              "fillColor": "#ffffff",
+              "borderColor": "#efb0b0",
+              "textColor": "#1f2329",
+              "fontSize": 12
+            },
+            {
+              "type": "rect",
+              "id": "ba-issue-4",
+              "width": 150,
+              "height": 30,
+              "borderRadius": 4,
+              "text": "能力沉淀不足",
+              "fillColor": "#ffffff",
+              "borderColor": "#efb0b0",
+              "textColor": "#1f2329",
+              "fontSize": 12
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "ba-1-1",
+        "to": "ba-1-2",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "straight",
+        "lineColor": "#b8bec8",
+        "lineWidth": 1,
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "ba-1-2",
+        "to": "ba-1-3",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "straight",
+        "lineColor": "#b8bec8",
+        "lineWidth": 1,
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "ba-2-1",
+        "to": "ba-2-2",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "straight",
+        "lineColor": "#b8bec8",
+        "lineWidth": 1,
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "ba-2-2",
+        "to": "ba-2-3",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "straight",
+        "lineColor": "#b8bec8",
+        "lineWidth": 1,
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "ba-2-3",
+        "to": "ba-2-4",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "straight",
+        "lineColor": "#b8bec8",
+        "lineWidth": 1,
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "ba-3-1",
+        "to": "ba-3-2",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "straight",
+        "lineColor": "#b8bec8",
+        "lineWidth": 1,
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "ba-3-2",
+        "to": "ba-3-3",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "straight",
+        "lineColor": "#b8bec8",
+        "lineWidth": 1,
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "ba-3-3",
+        "to": "ba-3-4",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "straight",
+        "lineColor": "#b8bec8",
+        "lineWidth": 1,
+        "endArrow": "none"
+      }
+    }
+  ],
+  "_scenario": "跨境电商中台业务域"
+}

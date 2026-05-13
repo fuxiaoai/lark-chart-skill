@@ -1,0 +1,418 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "type": "frame",
+      "id": "root",
+      "layout": "vertical",
+      "gap": 16,
+      "padding": 24,
+      "alignItems": "stretch",
+      "width": "fit-content",
+      "height": "fit-content",
+      "children": [
+        {
+          "type": "text",
+          "id": "title",
+          "text": "评测任务协作泳道图",
+          "fontSize": 18,
+          "textColor": "#1f2329",
+          "width": "fit-content",
+          "height": "fit-content",
+          "fontWeight": "bold"
+        },
+        {
+          "type": "frame",
+          "id": "sw-columns",
+          "layout": "horizontal",
+          "gap": 16,
+          "padding": 0,
+          "alignItems": "stretch",
+          "fillColor": "#ffffff00",
+          "borderColor": "#ffffff00",
+          "borderWidth": 1,
+          "width": "fit-content",
+          "height": "fit-content",
+          "children": [
+            {
+              "type": "frame",
+              "id": "sw-col-1",
+              "layout": "vertical",
+              "gap": 10,
+              "padding": 12,
+              "alignItems": "center",
+              "fillColor": "#ffffff",
+              "borderColor": "#e4e7ed",
+              "borderWidth": 1,
+              "width": "fit-content",
+              "height": "fit-content",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "sw-h-1",
+                  "text": "1. 评测用户",
+                  "fontSize": 13,
+                  "textColor": "#1f2329",
+                  "width": "fit-content",
+                  "height": "fit-content",
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "rect",
+                  "id": "sw-1-1",
+                  "width": 132,
+                  "height": 36,
+                  "borderRadius": 4,
+                  "text": "发起评测",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#5b7fcb",
+                  "textColor": "#1f2329",
+                  "fontSize": 12
+                },
+                {
+                  "type": "rect",
+                  "id": "sw-1-2",
+                  "width": 132,
+                  "height": 36,
+                  "borderRadius": 4,
+                  "text": "补全配置",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#5b7fcb",
+                  "textColor": "#1f2329",
+                  "fontSize": 12
+                },
+                {
+                  "type": "rect",
+                  "id": "sw-1-3",
+                  "width": 132,
+                  "height": 36,
+                  "borderRadius": 4,
+                  "text": "查看报告",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#5b7fcb",
+                  "textColor": "#1f2329",
+                  "fontSize": 12
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "sw-columns-arrow-1",
+              "text": "→",
+              "fontSize": 24,
+              "textColor": "#5b7fcb",
+              "width": "fit-content",
+              "height": "fit-content"
+            },
+            {
+              "type": "frame",
+              "id": "sw-col-2",
+              "layout": "vertical",
+              "gap": 10,
+              "padding": 12,
+              "alignItems": "center",
+              "fillColor": "#ffffff",
+              "borderColor": "#e4e7ed",
+              "borderWidth": 1,
+              "width": "fit-content",
+              "height": "fit-content",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "sw-h-2",
+                  "text": "2. 评测平台",
+                  "fontSize": 13,
+                  "textColor": "#1f2329",
+                  "width": "fit-content",
+                  "height": "fit-content",
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "rect",
+                  "id": "sw-2-1",
+                  "width": 132,
+                  "height": 36,
+                  "borderRadius": 4,
+                  "text": "校验配置",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#8a6fd1",
+                  "textColor": "#1f2329",
+                  "fontSize": 12
+                },
+                {
+                  "type": "rect",
+                  "id": "sw-2-2",
+                  "width": 132,
+                  "height": 36,
+                  "borderRadius": 4,
+                  "text": "创建任务",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#8a6fd1",
+                  "textColor": "#1f2329",
+                  "fontSize": 12
+                },
+                {
+                  "type": "rect",
+                  "id": "sw-2-3",
+                  "width": 132,
+                  "height": 36,
+                  "borderRadius": 4,
+                  "text": "汇总结果",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#8a6fd1",
+                  "textColor": "#1f2329",
+                  "fontSize": 12
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "sw-columns-arrow-2",
+              "text": "→",
+              "fontSize": 24,
+              "textColor": "#5b7fcb",
+              "width": "fit-content",
+              "height": "fit-content"
+            },
+            {
+              "type": "frame",
+              "id": "sw-col-3",
+              "layout": "vertical",
+              "gap": 10,
+              "padding": 12,
+              "alignItems": "center",
+              "fillColor": "#ffffff",
+              "borderColor": "#e4e7ed",
+              "borderWidth": 1,
+              "width": "fit-content",
+              "height": "fit-content",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "sw-h-3",
+                  "text": "3. 模型服务",
+                  "fontSize": 13,
+                  "textColor": "#1f2329",
+                  "width": "fit-content",
+                  "height": "fit-content",
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "rect",
+                  "id": "sw-3-1",
+                  "width": 132,
+                  "height": 36,
+                  "borderRadius": 4,
+                  "text": "接收样本",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#4e9d6d",
+                  "textColor": "#1f2329",
+                  "fontSize": 12
+                },
+                {
+                  "type": "rect",
+                  "id": "sw-3-2",
+                  "width": 132,
+                  "height": 36,
+                  "borderRadius": 4,
+                  "text": "执行推理",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#4e9d6d",
+                  "textColor": "#1f2329",
+                  "fontSize": 12
+                },
+                {
+                  "type": "rect",
+                  "id": "sw-3-3",
+                  "width": 132,
+                  "height": 36,
+                  "borderRadius": 4,
+                  "text": "返回响应",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#4e9d6d",
+                  "textColor": "#1f2329",
+                  "fontSize": 12
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "sw-columns-arrow-3",
+              "text": "→",
+              "fontSize": 24,
+              "textColor": "#5b7fcb",
+              "width": "fit-content",
+              "height": "fit-content"
+            },
+            {
+              "type": "frame",
+              "id": "sw-col-4",
+              "layout": "vertical",
+              "gap": 10,
+              "padding": 12,
+              "alignItems": "center",
+              "fillColor": "#ffffff",
+              "borderColor": "#e4e7ed",
+              "borderWidth": 1,
+              "width": "fit-content",
+              "height": "fit-content",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "sw-h-4",
+                  "text": "4. 指标服务",
+                  "fontSize": 13,
+                  "textColor": "#1f2329",
+                  "width": "fit-content",
+                  "height": "fit-content",
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "rect",
+                  "id": "sw-4-1",
+                  "width": 132,
+                  "height": 36,
+                  "borderRadius": 4,
+                  "text": "计算指标",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#d87a7a",
+                  "textColor": "#1f2329",
+                  "fontSize": 12
+                },
+                {
+                  "type": "rect",
+                  "id": "sw-4-2",
+                  "width": 132,
+                  "height": 36,
+                  "borderRadius": 4,
+                  "text": "标记异常",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#d87a7a",
+                  "textColor": "#1f2329",
+                  "fontSize": 12
+                },
+                {
+                  "type": "rect",
+                  "id": "sw-4-3",
+                  "width": 132,
+                  "height": 36,
+                  "borderRadius": 4,
+                  "text": "输出解释",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#d87a7a",
+                  "textColor": "#1f2329",
+                  "fontSize": 12
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "sw-1-1",
+        "to": "sw-1-2",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "straight",
+        "lineColor": "#b8bec8",
+        "lineWidth": 1,
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "sw-1-2",
+        "to": "sw-1-3",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "straight",
+        "lineColor": "#b8bec8",
+        "lineWidth": 1,
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "sw-2-1",
+        "to": "sw-2-2",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "straight",
+        "lineColor": "#b8bec8",
+        "lineWidth": 1,
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "sw-2-2",
+        "to": "sw-2-3",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "straight",
+        "lineColor": "#b8bec8",
+        "lineWidth": 1,
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "sw-3-1",
+        "to": "sw-3-2",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "straight",
+        "lineColor": "#b8bec8",
+        "lineWidth": 1,
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "sw-3-2",
+        "to": "sw-3-3",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "straight",
+        "lineColor": "#b8bec8",
+        "lineWidth": 1,
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "sw-4-1",
+        "to": "sw-4-2",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "straight",
+        "lineColor": "#b8bec8",
+        "lineWidth": 1,
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "sw-4-2",
+        "to": "sw-4-3",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "straight",
+        "lineColor": "#b8bec8",
+        "lineWidth": 1,
+        "endArrow": "none"
+      }
+    }
+  ],
+  "_scenario": "新员工入职多角色协同泳道"
+}

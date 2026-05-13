@@ -1,0 +1,364 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "type": "frame",
+      "id": "root",
+      "layout": "vertical",
+      "gap": 24,
+      "padding": 32,
+      "width": "fit-content",
+      "height": "fit-content",
+      "fillColor": "#ffffff",
+      "borderColor": "#57d7d0",
+      "borderWidth": 1,
+      "children": [
+        {
+          "type": "text",
+          "id": "title",
+          "text": "2026 Q2-Q4 产品发布里程碑",
+          "fontSize": 18,
+          "textColor": "#1f2329",
+          "fontWeight": "bold",
+          "width": "fit-content",
+          "height": "fit-content"
+        },
+        {
+          "type": "frame",
+          "id": "timeline",
+          "layout": "horizontal",
+          "gap": 16,
+          "padding": 16,
+          "alignItems": "stretch",
+          "width": "fit-content",
+          "height": "fit-content",
+          "children": [
+            {
+              "type": "frame",
+              "id": "m1",
+              "layout": "vertical",
+              "gap": 8,
+              "padding": 12,
+              "fillColor": "#edf7f2",
+              "borderColor": "#66e3a5",
+              "borderWidth": 1,
+              "width": 160,
+              "height": 140,
+              "children": [
+                {
+                  "type": "ellipse",
+                  "id": "m1-dot",
+                  "width": 16,
+                  "height": 16,
+                  "borderRadius": 8,
+                  "text": "",
+                  "fillColor": "#66e3a5",
+                  "borderColor": "#66e3a5",
+                  "textColor": "#1f2329",
+                  "fontSize": 12
+                },
+                {
+                  "type": "text",
+                  "id": "m1-date",
+                  "text": "2026-04",
+                  "fontSize": 12,
+                  "textColor": "#6b7280",
+                  "width": "fit-content",
+                  "height": "fit-content"
+                },
+                {
+                  "type": "text",
+                  "id": "m1-title",
+                  "text": "MVP 发布",
+                  "fontSize": 14,
+                  "textColor": "#1f2329",
+                  "fontWeight": "bold",
+                  "width": "fit-content",
+                  "height": "fit-content"
+                },
+                {
+                  "type": "text",
+                  "id": "m1-desc",
+                  "text": "核心功能上线",
+                  "fontSize": 12,
+                  "textColor": "#14532d",
+                  "width": "fit-content",
+                  "height": "fit-content"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "m2",
+              "layout": "vertical",
+              "gap": 8,
+              "padding": 12,
+              "fillColor": "#edf9fa",
+              "borderColor": "#57d7d0",
+              "borderWidth": 1,
+              "width": 160,
+              "height": 140,
+              "children": [
+                {
+                  "type": "ellipse",
+                  "id": "m2-dot",
+                  "width": 16,
+                  "height": 16,
+                  "borderRadius": 8,
+                  "text": "",
+                  "fillColor": "#57d7d0",
+                  "borderColor": "#57d7d0",
+                  "textColor": "#1f2329",
+                  "fontSize": 12
+                },
+                {
+                  "type": "text",
+                  "id": "m2-date",
+                  "text": "2026-06",
+                  "fontSize": 12,
+                  "textColor": "#6b7280",
+                  "width": "fit-content",
+                  "height": "fit-content"
+                },
+                {
+                  "type": "text",
+                  "id": "m2-title",
+                  "text": "V1.0 正式版",
+                  "fontSize": 14,
+                  "textColor": "#1f2329",
+                  "fontWeight": "bold",
+                  "width": "fit-content",
+                  "height": "fit-content"
+                },
+                {
+                  "type": "text",
+                  "id": "m2-desc",
+                  "text": "企业级特性",
+                  "fontSize": 12,
+                  "textColor": "#14532d",
+                  "width": "fit-content",
+                  "height": "fit-content"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "m3",
+              "layout": "vertical",
+              "gap": 8,
+              "padding": 12,
+              "fillColor": "#f3eeff",
+              "borderColor": "#a58bff",
+              "borderWidth": 1,
+              "width": 160,
+              "height": 140,
+              "children": [
+                {
+                  "type": "ellipse",
+                  "id": "m3-dot",
+                  "width": 16,
+                  "height": 16,
+                  "borderRadius": 8,
+                  "text": "",
+                  "fillColor": "#a58bff",
+                  "borderColor": "#a58bff",
+                  "textColor": "#1f2329",
+                  "fontSize": 12
+                },
+                {
+                  "type": "text",
+                  "id": "m3-date",
+                  "text": "2026-08",
+                  "fontSize": 12,
+                  "textColor": "#6b7280",
+                  "width": "fit-content",
+                  "height": "fit-content"
+                },
+                {
+                  "type": "text",
+                  "id": "m3-title",
+                  "text": "AI 功能上线",
+                  "fontSize": 14,
+                  "textColor": "#1f2329",
+                  "fontWeight": "bold",
+                  "width": "fit-content",
+                  "height": "fit-content"
+                },
+                {
+                  "type": "text",
+                  "id": "m3-desc",
+                  "text": "智能助手集成",
+                  "fontSize": 12,
+                  "textColor": "#14532d",
+                  "width": "fit-content",
+                  "height": "fit-content"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "m4",
+              "layout": "vertical",
+              "gap": 8,
+              "padding": 12,
+              "fillColor": "#f7f8fa",
+              "borderColor": "#4fd88f",
+              "borderWidth": 1,
+              "width": 160,
+              "height": 140,
+              "children": [
+                {
+                  "type": "ellipse",
+                  "id": "m4-dot",
+                  "width": 16,
+                  "height": 16,
+                  "borderRadius": 8,
+                  "text": "",
+                  "fillColor": "#4fd88f",
+                  "borderColor": "#4fd88f",
+                  "textColor": "#1f2329",
+                  "fontSize": 12
+                },
+                {
+                  "type": "text",
+                  "id": "m4-date",
+                  "text": "2026-10",
+                  "fontSize": 12,
+                  "textColor": "#6b7280",
+                  "width": "fit-content",
+                  "height": "fit-content"
+                },
+                {
+                  "type": "text",
+                  "id": "m4-title",
+                  "text": "生态开放",
+                  "fontSize": 14,
+                  "textColor": "#1f2329",
+                  "fontWeight": "bold",
+                  "width": "fit-content",
+                  "height": "fit-content"
+                },
+                {
+                  "type": "text",
+                  "id": "m4-desc",
+                  "text": "API 与插件市场",
+                  "fontSize": 12,
+                  "textColor": "#14532d",
+                  "width": "fit-content",
+                  "height": "fit-content"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "m5",
+              "layout": "vertical",
+              "gap": 8,
+              "padding": 12,
+              "fillColor": "#edf7f2",
+              "borderColor": "#62e6a8",
+              "borderWidth": 1,
+              "width": 160,
+              "height": 140,
+              "children": [
+                {
+                  "type": "ellipse",
+                  "id": "m5-dot",
+                  "width": 16,
+                  "height": 16,
+                  "borderRadius": 8,
+                  "text": "",
+                  "fillColor": "#62e6a8",
+                  "borderColor": "#62e6a8",
+                  "textColor": "#1f2329",
+                  "fontSize": 12
+                },
+                {
+                  "type": "text",
+                  "id": "m5-date",
+                  "text": "2026-12",
+                  "fontSize": 12,
+                  "textColor": "#6b7280",
+                  "width": "fit-content",
+                  "height": "fit-content"
+                },
+                {
+                  "type": "text",
+                  "id": "m5-title",
+                  "text": "全球化发布",
+                  "fontSize": 14,
+                  "textColor": "#1f2329",
+                  "fontWeight": "bold",
+                  "width": "fit-content",
+                  "height": "fit-content"
+                },
+                {
+                  "type": "text",
+                  "id": "m5-desc",
+                  "text": "多语言多区域",
+                  "fontSize": 12,
+                  "textColor": "#14532d",
+                  "width": "fit-content",
+                  "height": "fit-content"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "m1",
+        "to": "m2",
+        "fromAnchor": "right",
+        "toAnchor": "left",
+        "lineShape": "straight",
+        "lineColor": "#57d7d0",
+        "lineWidth": 1,
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "m2",
+        "to": "m3",
+        "fromAnchor": "right",
+        "toAnchor": "left",
+        "lineShape": "straight",
+        "lineColor": "#57d7d0",
+        "lineWidth": 1,
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "m3",
+        "to": "m4",
+        "fromAnchor": "right",
+        "toAnchor": "left",
+        "lineShape": "straight",
+        "lineColor": "#57d7d0",
+        "lineWidth": 1,
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "m4",
+        "to": "m5",
+        "fromAnchor": "right",
+        "toAnchor": "left",
+        "lineShape": "straight",
+        "lineColor": "#57d7d0",
+        "lineWidth": 1,
+        "endArrow": "none"
+      }
+    }
+  ],
+  "_scenario": "2026 Q2-Q4 产品发布里程碑"
+}

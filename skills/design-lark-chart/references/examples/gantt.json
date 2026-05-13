@@ -1,0 +1,261 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "type": "frame",
+      "id": "root",
+      "layout": "vertical",
+      "gap": 16,
+      "padding": 32,
+      "width": "fit-content",
+      "height": "fit-content",
+      "fillColor": "#e9ebef",
+      "borderColor": "#d9dee8",
+      "borderWidth": 1,
+      "children": [
+        {
+          "type": "text",
+          "id": "title",
+          "text": "半年度 OKR 甘特",
+          "fontSize": 18,
+          "textColor": "#1f2329",
+          "fontWeight": "bold",
+          "width": "fit-content",
+          "height": "fit-content"
+        },
+        {
+          "type": "frame",
+          "id": "timeline-header",
+          "layout": "horizontal",
+          "gap": 8,
+          "padding": 8,
+          "alignItems": "stretch",
+          "fillColor": "#f7f8fa",
+          "borderColor": "#d9dee8",
+          "borderWidth": 1,
+          "width": "fit-content",
+          "height": "fit-content",
+          "children": [
+            {
+              "type": "text",
+              "id": "h-task",
+              "text": "任务",
+              "fontSize": 12,
+              "textColor": "#86909c",
+              "width": 120,
+              "height": "fit-content"
+            },
+            {
+              "type": "text",
+              "id": "h-q2",
+              "text": "Q2",
+              "fontSize": 12,
+              "textColor": "#86909c",
+              "width": 200,
+              "height": "fit-content"
+            },
+            {
+              "type": "text",
+              "id": "h-q3",
+              "text": "Q3",
+              "fontSize": 12,
+              "textColor": "#86909c",
+              "width": 200,
+              "height": "fit-content"
+            },
+            {
+              "type": "text",
+              "id": "h-q4",
+              "text": "Q4",
+              "fontSize": 12,
+              "textColor": "#86909c",
+              "width": 200,
+              "height": "fit-content"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "row1",
+          "layout": "horizontal",
+          "gap": 8,
+          "padding": 8,
+          "alignItems": "stretch",
+          "fillColor": "#ffffff",
+          "borderColor": "#d9dee8",
+          "borderWidth": 1,
+          "width": "fit-content",
+          "height": "fit-content",
+          "children": [
+            {
+              "type": "text",
+              "id": "r1-task",
+              "text": "产品规划",
+              "fontSize": 13,
+              "textColor": "#1f2329",
+              "width": 120,
+              "height": "fit-content"
+            },
+            {
+              "type": "rect",
+              "id": "r1-bar",
+              "width": 180,
+              "height": 24,
+              "borderRadius": 4,
+              "text": "",
+              "fillColor": "#6bcf8b",
+              "borderColor": "#6bcf8b",
+              "textColor": "#1f2329",
+              "fontSize": 11
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "row2",
+          "layout": "horizontal",
+          "gap": 8,
+          "padding": 8,
+          "alignItems": "stretch",
+          "fillColor": "#ffffff",
+          "borderColor": "#d9dee8",
+          "borderWidth": 1,
+          "width": "fit-content",
+          "height": "fit-content",
+          "children": [
+            {
+              "type": "text",
+              "id": "r2-task",
+              "text": "技术架构",
+              "fontSize": 13,
+              "textColor": "#1f2329",
+              "width": 120,
+              "height": "fit-content"
+            },
+            {
+              "type": "rect",
+              "id": "r2-bar",
+              "width": 240,
+              "height": 24,
+              "borderRadius": 4,
+              "text": "",
+              "fillColor": "#d8b24c",
+              "borderColor": "#d8b24c",
+              "textColor": "#1f2329",
+              "fontSize": 11
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "row3",
+          "layout": "horizontal",
+          "gap": 8,
+          "padding": 8,
+          "alignItems": "stretch",
+          "fillColor": "#ffffff",
+          "borderColor": "#d9dee8",
+          "borderWidth": 1,
+          "width": "fit-content",
+          "height": "fit-content",
+          "children": [
+            {
+              "type": "text",
+              "id": "r3-task",
+              "text": "核心开发",
+              "fontSize": 13,
+              "textColor": "#1f2329",
+              "width": 120,
+              "height": "fit-content"
+            },
+            {
+              "type": "rect",
+              "id": "r3-bar",
+              "width": 400,
+              "height": 24,
+              "borderRadius": 4,
+              "text": "",
+              "fillColor": "#eef4ff",
+              "borderColor": "#eef4ff",
+              "textColor": "#1f2329",
+              "fontSize": 11
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "row4",
+          "layout": "horizontal",
+          "gap": 8,
+          "padding": 8,
+          "alignItems": "stretch",
+          "fillColor": "#ffffff",
+          "borderColor": "#d9dee8",
+          "borderWidth": 1,
+          "width": "fit-content",
+          "height": "fit-content",
+          "children": [
+            {
+              "type": "text",
+              "id": "r4-task",
+              "text": "测试验收",
+              "fontSize": 13,
+              "textColor": "#1f2329",
+              "width": 120,
+              "height": "fit-content"
+            },
+            {
+              "type": "rect",
+              "id": "r4-bar",
+              "width": 200,
+              "height": 24,
+              "borderRadius": 4,
+              "text": "",
+              "fillColor": "#f6eeff",
+              "borderColor": "#f6eeff",
+              "textColor": "#1f2329",
+              "fontSize": 11
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "row5",
+          "layout": "horizontal",
+          "gap": 8,
+          "padding": 8,
+          "alignItems": "stretch",
+          "fillColor": "#ffffff",
+          "borderColor": "#d9dee8",
+          "borderWidth": 1,
+          "width": "fit-content",
+          "height": "fit-content",
+          "children": [
+            {
+              "type": "text",
+              "id": "r5-task",
+              "text": "上线发布",
+              "fontSize": 13,
+              "textColor": "#1f2329",
+              "width": 120,
+              "height": "fit-content"
+            },
+            {
+              "type": "rect",
+              "id": "r5-bar",
+              "width": 120,
+              "height": 24,
+              "borderRadius": 4,
+              "text": "",
+              "fillColor": "#fff6de",
+              "borderColor": "#fff6de",
+              "textColor": "#1f2329",
+              "fontSize": 11
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "_scenario": "半年度 OKR 甘特图"
+}

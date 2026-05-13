@@ -1,0 +1,222 @@
+{
+  "id": "system-architecture",
+  "cn": "系统架构图",
+  "use_case": "技术组件、服务拓扑、外部依赖",
+  "source_token": "DFFPwpA1MhU2nlb7KYbcdwllnid",
+  "node_count": 143,
+  "style": {
+    "palette": {
+      "fill_colors": [
+        {
+          "value": "#ffffff",
+          "count": 39
+        },
+        {
+          "value": "#fdebec",
+          "count": 9
+        },
+        {
+          "value": "#eee7ff",
+          "count": 1
+        },
+        {
+          "value": "#fff4d9",
+          "count": 1
+        },
+        {
+          "value": "#fbfcfd",
+          "count": 1
+        },
+        {
+          "value": "#e7eeff",
+          "count": 1
+        },
+        {
+          "value": "#eaf7ee",
+          "count": 1
+        }
+      ],
+      "border_colors": [
+        {
+          "value": "#5b7fcb",
+          "count": 42
+        },
+        {
+          "value": "#dadde3",
+          "count": 11
+        },
+        {
+          "value": "#fdebec",
+          "count": 8
+        },
+        {
+          "value": "#6b73c9",
+          "count": 5
+        },
+        {
+          "value": "#b8bec8",
+          "count": 1
+        }
+      ],
+      "text_colors": [
+        {
+          "value": "#1f2329",
+          "count": 93
+        },
+        {
+          "value": "#c94c4c",
+          "count": 9
+        },
+        {
+          "value": "#5b7fcb",
+          "count": 7
+        },
+        {
+          "value": "#6b7280",
+          "count": 6
+        },
+        {
+          "value": "#c8a33e",
+          "count": 1
+        },
+        {
+          "value": "#6b73c9",
+          "count": 1
+        },
+        {
+          "value": "#4e9d6d",
+          "count": 1
+        },
+        {
+          "value": "#4b74d8",
+          "count": 1
+        },
+        {
+          "value": "#b7bdc6",
+          "count": 1
+        },
+        {
+          "value": "#7b67c9",
+          "count": 1
+        },
+        {
+          "value": "#8a9099",
+          "count": 1
+        }
+      ]
+    },
+    "typography": {
+      "font_sizes": [
+        {
+          "value": 14,
+          "count": 53
+        },
+        {
+          "value": 12,
+          "count": 46
+        },
+        {
+          "value": 13,
+          "count": 21
+        },
+        {
+          "value": 26,
+          "count": 1
+        },
+        {
+          "value": 11,
+          "count": 1
+        }
+      ],
+      "font_weights": [
+        {
+          "value": "regular",
+          "count": 87
+        },
+        {
+          "value": "bold",
+          "count": 35
+        }
+      ],
+      "horizontal_align": [
+        {
+          "value": "center",
+          "count": 105
+        },
+        {
+          "value": "left",
+          "count": 16
+        },
+        {
+          "value": "right",
+          "count": 1
+        }
+      ]
+    },
+    "shape": {
+      "composite_types": [
+        {
+          "value": "round_rect",
+          "count": 51
+        },
+        {
+          "value": "round_rect2",
+          "count": 1
+        },
+        {
+          "value": "rect",
+          "count": 1
+        }
+      ],
+      "border_widths": [
+        {
+          "value": "narrow",
+          "count": 47
+        }
+      ],
+      "border_styles": [
+        {
+          "value": "solid",
+          "count": 47
+        },
+        {
+          "value": "none",
+          "count": 6
+        }
+      ]
+    },
+    "connector": {
+      "shapes": [
+        {
+          "value": "right_angled_polyline",
+          "count": 19
+        },
+        {
+          "value": "straight",
+          "count": 1
+        }
+      ],
+      "arrow_styles": [
+        {
+          "value": "none",
+          "count": 19
+        },
+        {
+          "value": "line_arrow",
+          "count": 1
+        }
+      ],
+      "line_widths": [
+        {
+          "value": "extra_narrow",
+          "count": 19
+        },
+        {
+          "value": "narrow",
+          "count": 1
+        }
+      ]
+    },
+    "uses_inline_svg_decoration": true
+  }
+}

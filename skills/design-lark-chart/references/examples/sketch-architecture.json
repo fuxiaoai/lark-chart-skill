@@ -1,0 +1,351 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "type": "frame",
+      "id": "root",
+      "layout": "vertical",
+      "gap": 24,
+      "padding": 32,
+      "width": "fit-content",
+      "height": "fit-content",
+      "fillColor": "#fbfcfd",
+      "borderColor": "#5b7fcb",
+      "borderWidth": 1,
+      "children": [
+        {
+          "type": "text",
+          "id": "title",
+          "text": "数据湖手绘风架构",
+          "fontSize": 18,
+          "textColor": "#1f2329",
+          "fontWeight": "bold",
+          "width": "fit-content",
+          "height": "fit-content"
+        },
+        {
+          "type": "frame",
+          "id": "layer-ingest",
+          "layout": "horizontal",
+          "gap": 16,
+          "padding": 16,
+          "alignItems": "stretch",
+          "fillColor": "#fbfcfd",
+          "borderColor": "#5b7fcb",
+          "borderWidth": 1,
+          "width": "fit-content",
+          "height": "fit-content",
+          "children": [
+            {
+              "type": "rect",
+              "id": "n1",
+              "width": 160,
+              "height": 56,
+              "borderRadius": 4,
+              "text": "日志采集",
+              "fillColor": "#fbfcfd",
+              "borderColor": "#5b7fcb",
+              "textColor": "#1f2329",
+              "fontSize": 14
+            },
+            {
+              "type": "rect",
+              "id": "n2",
+              "width": 160,
+              "height": 56,
+              "borderRadius": 4,
+              "text": "CDC 同步",
+              "fillColor": "#fbfcfd",
+              "borderColor": "#5b7fcb",
+              "textColor": "#1f2329",
+              "fontSize": 14
+            },
+            {
+              "type": "rect",
+              "id": "n3",
+              "width": 160,
+              "height": 56,
+              "borderRadius": 4,
+              "text": "API 接入",
+              "fillColor": "#fbfcfd",
+              "borderColor": "#5b7fcb",
+              "textColor": "#1f2329",
+              "fontSize": 14
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "layer-storage",
+          "layout": "horizontal",
+          "gap": 16,
+          "padding": 16,
+          "alignItems": "stretch",
+          "fillColor": "#fbfcfd",
+          "borderColor": "#4e9d6d",
+          "borderWidth": 1,
+          "width": "fit-content",
+          "height": "fit-content",
+          "children": [
+            {
+              "type": "rect",
+              "id": "n4",
+              "width": 160,
+              "height": 56,
+              "borderRadius": 4,
+              "text": "对象存储",
+              "fillColor": "#fbfcfd",
+              "borderColor": "#4e9d6d",
+              "textColor": "#1f2329",
+              "fontSize": 14
+            },
+            {
+              "type": "rect",
+              "id": "n5",
+              "width": 160,
+              "height": 56,
+              "borderRadius": 4,
+              "text": "数据湖",
+              "fillColor": "#fbfcfd",
+              "borderColor": "#4e9d6d",
+              "textColor": "#1f2329",
+              "fontSize": 14
+            },
+            {
+              "type": "rect",
+              "id": "n6",
+              "width": 160,
+              "height": 56,
+              "borderRadius": 4,
+              "text": "元数据管理",
+              "fillColor": "#fbfcfd",
+              "borderColor": "#4e9d6d",
+              "textColor": "#1f2329",
+              "fontSize": 14
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "layer-compute",
+          "layout": "horizontal",
+          "gap": 16,
+          "padding": 16,
+          "alignItems": "stretch",
+          "fillColor": "#fbfcfd",
+          "borderColor": "#c8a33e",
+          "borderWidth": 1,
+          "width": "fit-content",
+          "height": "fit-content",
+          "children": [
+            {
+              "type": "rect",
+              "id": "n7",
+              "width": 160,
+              "height": 56,
+              "borderRadius": 4,
+              "text": "批处理",
+              "fillColor": "#fbfcfd",
+              "borderColor": "#c8a33e",
+              "textColor": "#1f2329",
+              "fontSize": 14
+            },
+            {
+              "type": "rect",
+              "id": "n8",
+              "width": 160,
+              "height": 56,
+              "borderRadius": 4,
+              "text": "流计算",
+              "fillColor": "#fbfcfd",
+              "borderColor": "#c8a33e",
+              "textColor": "#1f2329",
+              "fontSize": 14
+            },
+            {
+              "type": "rect",
+              "id": "n9",
+              "width": 160,
+              "height": 56,
+              "borderRadius": 4,
+              "text": "交互查询",
+              "fillColor": "#fbfcfd",
+              "borderColor": "#c8a33e",
+              "textColor": "#1f2329",
+              "fontSize": 14
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "layer-serve",
+          "layout": "horizontal",
+          "gap": 16,
+          "padding": 16,
+          "alignItems": "stretch",
+          "fillColor": "#fbfcfd",
+          "borderColor": "#6b7280",
+          "borderWidth": 1,
+          "width": "fit-content",
+          "height": "fit-content",
+          "children": [
+            {
+              "type": "rect",
+              "id": "n10",
+              "width": 160,
+              "height": 56,
+              "borderRadius": 4,
+              "text": "BI 报表",
+              "fillColor": "#fbfcfd",
+              "borderColor": "#6b7280",
+              "textColor": "#1f2329",
+              "fontSize": 14
+            },
+            {
+              "type": "rect",
+              "id": "n11",
+              "width": 160,
+              "height": 56,
+              "borderRadius": 4,
+              "text": "机器学习",
+              "fillColor": "#fbfcfd",
+              "borderColor": "#6b7280",
+              "textColor": "#1f2329",
+              "fontSize": 14
+            },
+            {
+              "type": "rect",
+              "id": "n12",
+              "width": 160,
+              "height": 56,
+              "borderRadius": 4,
+              "text": "数据服务",
+              "fillColor": "#fbfcfd",
+              "borderColor": "#6b7280",
+              "textColor": "#1f2329",
+              "fontSize": 14
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "n1",
+        "to": "n4",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "straight",
+        "lineColor": "#5b7fcb",
+        "lineWidth": 1,
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "n2",
+        "to": "n5",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "straight",
+        "lineColor": "#5b7fcb",
+        "lineWidth": 1,
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "n3",
+        "to": "n5",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "straight",
+        "lineColor": "#5b7fcb",
+        "lineWidth": 1,
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "n4",
+        "to": "n7",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "straight",
+        "lineColor": "#4e9d6d",
+        "lineWidth": 1,
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "n5",
+        "to": "n8",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "straight",
+        "lineColor": "#4e9d6d",
+        "lineWidth": 1,
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "n6",
+        "to": "n9",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "straight",
+        "lineColor": "#4e9d6d",
+        "lineWidth": 1,
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "n7",
+        "to": "n10",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "straight",
+        "lineColor": "#c8a33e",
+        "lineWidth": 1,
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "n8",
+        "to": "n11",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "straight",
+        "lineColor": "#c8a33e",
+        "lineWidth": 1,
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "n9",
+        "to": "n12",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "straight",
+        "lineColor": "#c8a33e",
+        "lineWidth": 1,
+        "endArrow": "none"
+      }
+    }
+  ],
+  "_scenario": "数据湖手绘风架构"
+}

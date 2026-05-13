@@ -1,0 +1,178 @@
+{
+  "id": "sketch-architecture",
+  "cn": "手绘风格架构图",
+  "use_case": "低保真草图、早期方案沟通",
+  "source_token": "CRpQwNfdWhhLnjbffwhcsuXMnjh",
+  "node_count": 67,
+  "style": {
+    "palette": {
+      "fill_colors": [
+        {
+          "value": "#fbfcfd",
+          "count": 10
+        },
+        {
+          "value": "#5b7fcb",
+          "count": 3
+        },
+        {
+          "value": "#4e9d6d",
+          "count": 3
+        },
+        {
+          "value": "#c8a33e",
+          "count": 3
+        }
+      ],
+      "border_colors": [
+        {
+          "value": "#5b7fcb",
+          "count": 12
+        },
+        {
+          "value": "#4e9d6d",
+          "count": 12
+        },
+        {
+          "value": "#c8a33e",
+          "count": 12
+        },
+        {
+          "value": "#c7cdd6",
+          "count": 3
+        },
+        {
+          "value": "#6b7280",
+          "count": 2
+        }
+      ],
+      "text_colors": [
+        {
+          "value": "#1f2329",
+          "count": 32
+        },
+        {
+          "value": "#c8a33e",
+          "count": 3
+        },
+        {
+          "value": "#b7bdc6",
+          "count": 1
+        },
+        {
+          "value": "#8a9099",
+          "count": 1
+        }
+      ]
+    },
+    "typography": {
+      "font_sizes": [
+        {
+          "value": 14,
+          "count": 23
+        },
+        {
+          "value": 16,
+          "count": 9
+        },
+        {
+          "value": 18,
+          "count": 3
+        },
+        {
+          "value": 12,
+          "count": 1
+        },
+        {
+          "value": 30,
+          "count": 1
+        }
+      ],
+      "font_weights": [
+        {
+          "value": "regular",
+          "count": 24
+        },
+        {
+          "value": "bold",
+          "count": 13
+        }
+      ],
+      "horizontal_align": [
+        {
+          "value": "center",
+          "count": 22
+        },
+        {
+          "value": "left",
+          "count": 14
+        },
+        {
+          "value": "right",
+          "count": 1
+        }
+      ]
+    },
+    "shape": {
+      "composite_types": [
+        {
+          "value": "rect",
+          "count": 13
+        },
+        {
+          "value": "ellipse",
+          "count": 9
+        }
+      ],
+      "border_widths": [
+        {
+          "value": "narrow",
+          "count": 12
+        }
+      ],
+      "border_styles": [
+        {
+          "value": "none",
+          "count": 10
+        },
+        {
+          "value": "solid",
+          "count": 9
+        },
+        {
+          "value": "dash",
+          "count": 3
+        }
+      ]
+    },
+    "connector": {
+      "shapes": [
+        {
+          "value": "straight",
+          "count": 27
+        },
+        {
+          "value": "curve",
+          "count": 2
+        }
+      ],
+      "arrow_styles": [
+        {
+          "value": "none",
+          "count": 27
+        },
+        {
+          "value": "line_arrow",
+          "count": 2
+        }
+      ],
+      "line_widths": [
+        {
+          "value": "narrow",
+          "count": 29
+        }
+      ]
+    },
+    "uses_inline_svg_decoration": true
+  }
+}

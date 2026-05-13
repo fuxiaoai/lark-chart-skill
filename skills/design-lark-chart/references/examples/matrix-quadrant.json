@@ -1,0 +1,282 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "type": "frame",
+      "id": "root",
+      "layout": "vertical",
+      "gap": 24,
+      "padding": 32,
+      "width": "fit-content",
+      "height": "fit-content",
+      "fillColor": "#ffffff",
+      "borderColor": "#98a2b3",
+      "borderWidth": 1,
+      "children": [
+        {
+          "type": "text",
+          "id": "title",
+          "text": "产品功能 价值×成本 四象限",
+          "fontSize": 18,
+          "textColor": "#1f2329",
+          "fontWeight": "bold",
+          "width": "fit-content",
+          "height": "fit-content"
+        },
+        {
+          "type": "frame",
+          "id": "quadrants",
+          "layout": "horizontal",
+          "gap": 16,
+          "padding": 16,
+          "alignItems": "stretch",
+          "width": "fit-content",
+          "height": "fit-content",
+          "children": [
+            {
+              "type": "frame",
+              "id": "q1",
+              "layout": "vertical",
+              "gap": 12,
+              "padding": 16,
+              "fillColor": "#eaf7ee",
+              "borderColor": "#55c271",
+              "borderWidth": 1,
+              "width": 200,
+              "height": 240,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "q1-title",
+                  "text": "高价值 / 低成本",
+                  "fontSize": 14,
+                  "textColor": "#1f2329",
+                  "fontWeight": "bold",
+                  "width": "fit-content",
+                  "height": "fit-content"
+                },
+                {
+                  "type": "rect",
+                  "id": "n1",
+                  "width": 160,
+                  "height": 40,
+                  "borderRadius": 4,
+                  "text": "一键分享",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#55c271",
+                  "textColor": "#1f2329",
+                  "fontSize": 13
+                },
+                {
+                  "type": "rect",
+                  "id": "n2",
+                  "width": 160,
+                  "height": 40,
+                  "borderRadius": 4,
+                  "text": "消息推送",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#55c271",
+                  "textColor": "#1f2329",
+                  "fontSize": 13
+                },
+                {
+                  "type": "rect",
+                  "id": "n3",
+                  "width": 160,
+                  "height": 40,
+                  "borderRadius": 4,
+                  "text": "深色模式",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#55c271",
+                  "textColor": "#1f2329",
+                  "fontSize": 13
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "q2",
+              "layout": "vertical",
+              "gap": 12,
+              "padding": 16,
+              "fillColor": "#fff4d9",
+              "borderColor": "#d6b04d",
+              "borderWidth": 1,
+              "width": 200,
+              "height": 240,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "q2-title",
+                  "text": "高价值 / 高成本",
+                  "fontSize": 14,
+                  "textColor": "#1f2329",
+                  "fontWeight": "bold",
+                  "width": "fit-content",
+                  "height": "fit-content"
+                },
+                {
+                  "type": "rect",
+                  "id": "n4",
+                  "width": 160,
+                  "height": 40,
+                  "borderRadius": 4,
+                  "text": "实时协作",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#d6b04d",
+                  "textColor": "#1f2329",
+                  "fontSize": 13
+                },
+                {
+                  "type": "rect",
+                  "id": "n5",
+                  "width": 160,
+                  "height": 40,
+                  "borderRadius": 4,
+                  "text": "AI 助手",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#d6b04d",
+                  "textColor": "#1f2329",
+                  "fontSize": 13
+                },
+                {
+                  "type": "rect",
+                  "id": "n6",
+                  "width": 160,
+                  "height": 40,
+                  "borderRadius": 4,
+                  "text": "多端同步",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#d6b04d",
+                  "textColor": "#1f2329",
+                  "fontSize": 13
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "q3",
+              "layout": "vertical",
+              "gap": 12,
+              "padding": 16,
+              "fillColor": "#f2ecff",
+              "borderColor": "#8b6be8",
+              "borderWidth": 1,
+              "width": 200,
+              "height": 240,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "q3-title",
+                  "text": "低价值 / 低成本",
+                  "fontSize": 14,
+                  "textColor": "#1f2329",
+                  "fontWeight": "bold",
+                  "width": "fit-content",
+                  "height": "fit-content"
+                },
+                {
+                  "type": "rect",
+                  "id": "n7",
+                  "width": 160,
+                  "height": 40,
+                  "borderRadius": 4,
+                  "text": "主题换肤",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#8b6be8",
+                  "textColor": "#1f2329",
+                  "fontSize": 13
+                },
+                {
+                  "type": "rect",
+                  "id": "n8",
+                  "width": 160,
+                  "height": 40,
+                  "borderRadius": 4,
+                  "text": "动画特效",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#8b6be8",
+                  "textColor": "#1f2329",
+                  "fontSize": 13
+                },
+                {
+                  "type": "rect",
+                  "id": "n9",
+                  "width": 160,
+                  "height": 40,
+                  "borderRadius": 4,
+                  "text": "手势操作",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#8b6be8",
+                  "textColor": "#1f2329",
+                  "fontSize": 13
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "q4",
+              "layout": "vertical",
+              "gap": 12,
+              "padding": 16,
+              "fillColor": "#eef3ff",
+              "borderColor": "#5b8ff9",
+              "borderWidth": 1,
+              "width": 200,
+              "height": 240,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "q4-title",
+                  "text": "低价值 / 高成本",
+                  "fontSize": 14,
+                  "textColor": "#1f2329",
+                  "fontWeight": "bold",
+                  "width": "fit-content",
+                  "height": "fit-content"
+                },
+                {
+                  "type": "rect",
+                  "id": "n10",
+                  "width": 160,
+                  "height": 40,
+                  "borderRadius": 4,
+                  "text": "3D 预览",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#5b8ff9",
+                  "textColor": "#1f2329",
+                  "fontSize": 13
+                },
+                {
+                  "type": "rect",
+                  "id": "n11",
+                  "width": 160,
+                  "height": 40,
+                  "borderRadius": 4,
+                  "text": "VR 支持",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#5b8ff9",
+                  "textColor": "#1f2329",
+                  "fontSize": 13
+                },
+                {
+                  "type": "rect",
+                  "id": "n12",
+                  "width": 160,
+                  "height": 40,
+                  "borderRadius": 4,
+                  "text": "区块链",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#5b8ff9",
+                  "textColor": "#1f2329",
+                  "fontSize": 13
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "_scenario": "产品功能 价值 x 成本 四象限"
+}

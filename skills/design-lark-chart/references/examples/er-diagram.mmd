@@ -1,0 +1,24 @@
+erDiagram
+  USER {
+    string id PK
+    string email
+    string name
+    datetime created_at
+  }
+
+  EVAL_TASK {
+    string id PK
+    string creator_user_id FK
+    string status
+    datetime created_at
+  }
+
+  TASK_RESULT {
+    string id PK
+    string task_id FK
+    string report_url
+    datetime created_at
+  }
+
+  USER ||--o{ EVAL_TASK : creates
+  EVAL_TASK ||--o{ TASK_RESULT : generates

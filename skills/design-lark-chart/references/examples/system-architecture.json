@@ -1,0 +1,1037 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "type": "frame",
+      "id": "root",
+      "layout": "vertical",
+      "gap": 24,
+      "padding": 32,
+      "width": "fit-content",
+      "height": "fit-content",
+      "fillColor": "#fbfcfd",
+      "borderColor": "#dadde3",
+      "borderWidth": 1,
+      "children": [
+        {
+          "type": "text",
+          "id": "title",
+          "text": "EcomEval 自动化评测平台系统架构图",
+          "fontSize": 20,
+          "textColor": "#1f2329",
+          "fontWeight": "bold",
+          "width": "fit-content",
+          "height": "fit-content"
+        },
+        {
+          "type": "text",
+          "id": "subtitle",
+          "text": "数据 -> 评估器 -> 场景 -> 执行 -> 报告：五段式动线 + 多区域部署 + 外部生态集成",
+          "fontSize": 12,
+          "textColor": "#6b7280",
+          "width": "fit-content",
+          "height": "fit-content"
+        },
+        {
+          "type": "frame",
+          "id": "content",
+          "layout": "horizontal",
+          "gap": 24,
+          "padding": 0,
+          "alignItems": "start",
+          "width": "fit-content",
+          "height": "fit-content",
+          "children": [
+            {
+              "type": "frame",
+              "id": "main-stack",
+              "layout": "vertical",
+              "gap": 18,
+              "padding": 0,
+              "width": "fit-content",
+              "height": "fit-content",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "layer-access",
+                  "layout": "horizontal",
+                  "gap": 16,
+                  "padding": 16,
+                  "alignItems": "stretch",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#dadde3",
+                  "borderWidth": 1,
+                  "width": "fit-content",
+                  "height": "fit-content",
+                  "children": [
+                    {
+                      "type": "rect",
+                      "id": "layer-access-label",
+                      "width": 120,
+                      "height": 40,
+                      "borderRadius": 20,
+                      "text": "应用接入层",
+                      "fillColor": "#eee7ff",
+                      "borderColor": "#6b73c9",
+                      "textColor": "#6b73c9",
+                      "fontSize": 13
+                    },
+                    {
+                      "type": "rect",
+                      "id": "n-access-console",
+                      "width": 156,
+                      "height": 56,
+                      "borderRadius": 10,
+                      "text": "Web 控制台",
+                      "fillColor": "#ffffff",
+                      "borderColor": "#5b7fcb",
+                      "textColor": "#1f2329",
+                      "fontSize": 14
+                    },
+                    {
+                      "type": "rect",
+                      "id": "n-access-openapi",
+                      "width": 156,
+                      "height": 56,
+                      "borderRadius": 10,
+                      "text": "OpenAPI",
+                      "fillColor": "#ffffff",
+                      "borderColor": "#5b7fcb",
+                      "textColor": "#1f2329",
+                      "fontSize": 14
+                    },
+                    {
+                      "type": "rect",
+                      "id": "n-access-tenant",
+                      "width": 156,
+                      "height": 56,
+                      "borderRadius": 10,
+                      "text": "多租户入口",
+                      "fillColor": "#ffffff",
+                      "borderColor": "#5b7fcb",
+                      "textColor": "#1f2329",
+                      "fontSize": 14
+                    },
+                    {
+                      "type": "rect",
+                      "id": "n-access-region",
+                      "width": 176,
+                      "height": 56,
+                      "borderRadius": 10,
+                      "text": "多区域接入 (CN / TTP)",
+                      "fillColor": "#ffffff",
+                      "borderColor": "#5b7fcb",
+                      "textColor": "#1f2329",
+                      "fontSize": 14
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "layer-core",
+                  "layout": "horizontal",
+                  "gap": 16,
+                  "padding": 16,
+                  "alignItems": "stretch",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#dadde3",
+                  "borderWidth": 1,
+                  "width": "fit-content",
+                  "height": "fit-content",
+                  "children": [
+                    {
+                      "type": "rect",
+                      "id": "layer-core-label",
+                      "width": 120,
+                      "height": 40,
+                      "borderRadius": 20,
+                      "text": "核心业务层",
+                      "fillColor": "#e7eeff",
+                      "borderColor": "#4b74d8",
+                      "textColor": "#4b74d8",
+                      "fontSize": 13
+                    },
+                    {
+                      "type": "rect",
+                      "id": "n-core-scene",
+                      "width": 144,
+                      "height": 56,
+                      "borderRadius": 10,
+                      "text": "评测场景",
+                      "fillColor": "#ffffff",
+                      "borderColor": "#4b74d8",
+                      "textColor": "#1f2329",
+                      "fontSize": 14
+                    },
+                    {
+                      "type": "rect",
+                      "id": "n-core-scheduler",
+                      "width": 144,
+                      "height": 56,
+                      "borderRadius": 10,
+                      "text": "评测任务调度",
+                      "fillColor": "#ffffff",
+                      "borderColor": "#4b74d8",
+                      "textColor": "#1f2329",
+                      "fontSize": 14
+                    },
+                    {
+                      "type": "rect",
+                      "id": "n-core-evaluator",
+                      "width": 144,
+                      "height": 56,
+                      "borderRadius": 10,
+                      "text": "评估器中心",
+                      "fillColor": "#ffffff",
+                      "borderColor": "#4b74d8",
+                      "textColor": "#1f2329",
+                      "fontSize": 14
+                    },
+                    {
+                      "type": "rect",
+                      "id": "n-core-target",
+                      "width": 144,
+                      "height": 56,
+                      "borderRadius": 10,
+                      "text": "评测对象管理",
+                      "fillColor": "#ffffff",
+                      "borderColor": "#4b74d8",
+                      "textColor": "#1f2329",
+                      "fontSize": 14
+                    },
+                    {
+                      "type": "rect",
+                      "id": "n-core-dataset",
+                      "width": 144,
+                      "height": 56,
+                      "borderRadius": 10,
+                      "text": "评测集与数据源",
+                      "fillColor": "#ffffff",
+                      "borderColor": "#4b74d8",
+                      "textColor": "#1f2329",
+                      "fontSize": 14
+                    },
+                    {
+                      "type": "rect",
+                      "id": "n-core-report",
+                      "width": 144,
+                      "height": 56,
+                      "borderRadius": 10,
+                      "text": "评测报告与导出",
+                      "fillColor": "#ffffff",
+                      "borderColor": "#4b74d8",
+                      "textColor": "#1f2329",
+                      "fontSize": 14
+                    },
+                    {
+                      "type": "rect",
+                      "id": "n-core-feedback",
+                      "width": 144,
+                      "height": 56,
+                      "borderRadius": 10,
+                      "text": "结果集转评测集",
+                      "fillColor": "#fdebec",
+                      "borderColor": "#c94c4c",
+                      "textColor": "#c94c4c",
+                      "fontSize": 14
+                    },
+                    {
+                      "type": "rect",
+                      "id": "n-core-metric",
+                      "width": 144,
+                      "height": 56,
+                      "borderRadius": 10,
+                      "text": "指标体系沉淀",
+                      "fillColor": "#ffffff",
+                      "borderColor": "#4b74d8",
+                      "textColor": "#1f2329",
+                      "fontSize": 14
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "layer-engine",
+                  "layout": "horizontal",
+                  "gap": 16,
+                  "padding": 16,
+                  "alignItems": "stretch",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#dadde3",
+                  "borderWidth": 1,
+                  "width": "fit-content",
+                  "height": "fit-content",
+                  "children": [
+                    {
+                      "type": "rect",
+                      "id": "layer-engine-label",
+                      "width": 120,
+                      "height": 40,
+                      "borderRadius": 20,
+                      "text": "评测引擎层",
+                      "fillColor": "#eaf7ee",
+                      "borderColor": "#4e9d6d",
+                      "textColor": "#4e9d6d",
+                      "fontSize": 13
+                    },
+                    {
+                      "type": "rect",
+                      "id": "n-engine-workflow",
+                      "width": 156,
+                      "height": 56,
+                      "borderRadius": 10,
+                      "text": "工作流评估器 (Aicolate)",
+                      "fillColor": "#ffffff",
+                      "borderColor": "#4e9d6d",
+                      "textColor": "#1f2329",
+                      "fontSize": 14
+                    },
+                    {
+                      "type": "rect",
+                      "id": "n-engine-pe",
+                      "width": 156,
+                      "height": 56,
+                      "borderRadius": 10,
+                      "text": "官方模型评估器 (PE)",
+                      "fillColor": "#ffffff",
+                      "borderColor": "#4e9d6d",
+                      "textColor": "#1f2329",
+                      "fontSize": 14
+                    },
+                    {
+                      "type": "rect",
+                      "id": "n-engine-rule",
+                      "width": 156,
+                      "height": 56,
+                      "borderRadius": 10,
+                      "text": "规则评估器",
+                      "fillColor": "#ffffff",
+                      "borderColor": "#4e9d6d",
+                      "textColor": "#1f2329",
+                      "fontSize": 14
+                    },
+                    {
+                      "type": "rect",
+                      "id": "n-engine-mm",
+                      "width": 156,
+                      "height": 56,
+                      "borderRadius": 10,
+                      "text": "多模态执行 (文/图/视频)",
+                      "fillColor": "#ffffff",
+                      "borderColor": "#4e9d6d",
+                      "textColor": "#1f2329",
+                      "fontSize": 14
+                    },
+                    {
+                      "type": "rect",
+                      "id": "n-engine-debug",
+                      "width": 156,
+                      "height": 56,
+                      "borderRadius": 10,
+                      "text": "Debug Trace 观测",
+                      "fillColor": "#ffffff",
+                      "borderColor": "#4e9d6d",
+                      "textColor": "#1f2329",
+                      "fontSize": 14
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "layer-data",
+                  "layout": "horizontal",
+                  "gap": 16,
+                  "padding": 16,
+                  "alignItems": "stretch",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#dadde3",
+                  "borderWidth": 1,
+                  "width": "fit-content",
+                  "height": "fit-content",
+                  "children": [
+                    {
+                      "type": "rect",
+                      "id": "layer-data-label",
+                      "width": 120,
+                      "height": 40,
+                      "borderRadius": 20,
+                      "text": "数据与模型层",
+                      "fillColor": "#fff4d9",
+                      "borderColor": "#c8a33e",
+                      "textColor": "#c8a33e",
+                      "fontSize": 13
+                    },
+                    {
+                      "type": "rect",
+                      "id": "n-data-hive",
+                      "width": 156,
+                      "height": 56,
+                      "borderRadius": 10,
+                      "text": "Hive / MySQL 数据接入",
+                      "fillColor": "#ffffff",
+                      "borderColor": "#c8a33e",
+                      "textColor": "#1f2329",
+                      "fontSize": 14
+                    },
+                    {
+                      "type": "rect",
+                      "id": "n-data-dataset",
+                      "width": 156,
+                      "height": 56,
+                      "borderRadius": 10,
+                      "text": "评测数据集存储",
+                      "fillColor": "#ffffff",
+                      "borderColor": "#c8a33e",
+                      "textColor": "#1f2329",
+                      "fontSize": 14
+                    },
+                    {
+                      "type": "rect",
+                      "id": "n-data-result",
+                      "width": 156,
+                      "height": 56,
+                      "borderRadius": 10,
+                      "text": "结果集存储",
+                      "fillColor": "#ffffff",
+                      "borderColor": "#c8a33e",
+                      "textColor": "#1f2329",
+                      "fontSize": 14
+                    },
+                    {
+                      "type": "rect",
+                      "id": "n-data-ark",
+                      "width": 156,
+                      "height": 56,
+                      "borderRadius": 10,
+                      "text": "方舟模型接入",
+                      "fillColor": "#ffffff",
+                      "borderColor": "#c8a33e",
+                      "textColor": "#1f2329",
+                      "fontSize": 14
+                    },
+                    {
+                      "type": "rect",
+                      "id": "n-data-llm",
+                      "width": 156,
+                      "height": 56,
+                      "borderRadius": 10,
+                      "text": "Embedding / LLM",
+                      "fillColor": "#ffffff",
+                      "borderColor": "#c8a33e",
+                      "textColor": "#1f2329",
+                      "fontSize": 14
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "layer-infra",
+                  "layout": "horizontal",
+                  "gap": 16,
+                  "padding": 16,
+                  "alignItems": "stretch",
+                  "fillColor": "#ffffff",
+                  "borderColor": "#dadde3",
+                  "borderWidth": 1,
+                  "width": "fit-content",
+                  "height": "fit-content",
+                  "children": [
+                    {
+                      "type": "rect",
+                      "id": "layer-infra-label",
+                      "width": 120,
+                      "height": 40,
+                      "borderRadius": 20,
+                      "text": "基础设施层",
+                      "fillColor": "#fdebec",
+                      "borderColor": "#c94c4c",
+                      "textColor": "#c94c4c",
+                      "fontSize": 13
+                    },
+                    {
+                      "type": "rect",
+                      "id": "n-infra-region",
+                      "width": 156,
+                      "height": 56,
+                      "borderRadius": 10,
+                      "text": "多机房部署 (CN / TTP)",
+                      "fillColor": "#ffffff",
+                      "borderColor": "#c94c4c",
+                      "textColor": "#1f2329",
+                      "fontSize": 14
+                    },
+                    {
+                      "type": "rect",
+                      "id": "n-infra-oss",
+                      "width": 156,
+                      "height": 56,
+                      "borderRadius": 10,
+                      "text": "对象存储",
+                      "fillColor": "#ffffff",
+                      "borderColor": "#c94c4c",
+                      "textColor": "#1f2329",
+                      "fontSize": 14
+                    },
+                    {
+                      "type": "rect",
+                      "id": "n-infra-mq",
+                      "width": 156,
+                      "height": 56,
+                      "borderRadius": 10,
+                      "text": "消息队列",
+                      "fillColor": "#ffffff",
+                      "borderColor": "#c94c4c",
+                      "textColor": "#1f2329",
+                      "fontSize": 14
+                    },
+                    {
+                      "type": "rect",
+                      "id": "n-infra-monitor",
+                      "width": 156,
+                      "height": 56,
+                      "borderRadius": 10,
+                      "text": "监控告警",
+                      "fillColor": "#ffffff",
+                      "borderColor": "#c94c4c",
+                      "textColor": "#1f2329",
+                      "fontSize": 14
+                    },
+                    {
+                      "type": "rect",
+                      "id": "n-infra-audit",
+                      "width": 156,
+                      "height": 56,
+                      "borderRadius": 10,
+                      "text": "审计日志",
+                      "fillColor": "#ffffff",
+                      "borderColor": "#c94c4c",
+                      "textColor": "#1f2329",
+                      "fontSize": 14
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "external-stack",
+              "layout": "vertical",
+              "gap": 18,
+              "padding": 16,
+              "fillColor": "#ffffff",
+              "borderColor": "#dadde3",
+              "borderWidth": 1,
+              "width": "fit-content",
+              "height": "fit-content",
+              "children": [
+                {
+                  "type": "rect",
+                  "id": "external-label",
+                  "width": 120,
+                  "height": 40,
+                  "borderRadius": 20,
+                  "text": "外部依赖",
+                  "fillColor": "#fdebec",
+                  "borderColor": "#c94c4c",
+                  "textColor": "#c94c4c",
+                  "fontSize": 13
+                },
+                {
+                  "type": "frame",
+                  "id": "external-workflow",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 12,
+                  "fillColor": "#ffffff",
+                  "borderColor": "#5b7fcb",
+                  "borderWidth": 1,
+                  "width": 220,
+                  "height": "fit-content",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "external-workflow-title",
+                      "text": "工作流平台",
+                      "fontSize": 13,
+                      "textColor": "#6b7280",
+                      "fontWeight": "bold",
+                      "width": "fit-content",
+                      "height": "fit-content"
+                    },
+                    {
+                      "type": "rect",
+                      "id": "n-ext-aicolate",
+                      "width": 196,
+                      "height": 44,
+                      "borderRadius": 8,
+                      "text": "Aicolate",
+                      "fillColor": "#ffffff",
+                      "borderColor": "#5b7fcb",
+                      "textColor": "#1f2329",
+                      "fontSize": 14
+                    },
+                    {
+                      "type": "rect",
+                      "id": "n-ext-fornax",
+                      "width": 196,
+                      "height": 44,
+                      "borderRadius": 8,
+                      "text": "Fornax (Prompt / Trace)",
+                      "fillColor": "#ffffff",
+                      "borderColor": "#5b7fcb",
+                      "textColor": "#1f2329",
+                      "fontSize": 14
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "external-business",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 12,
+                  "fillColor": "#ffffff",
+                  "borderColor": "#5b7fcb",
+                  "borderWidth": 1,
+                  "width": 220,
+                  "height": "fit-content",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "external-business-title",
+                      "text": "业务系统",
+                      "fontSize": 13,
+                      "textColor": "#6b7280",
+                      "fontWeight": "bold",
+                      "width": "fit-content",
+                      "height": "fit-content"
+                    },
+                    {
+                      "type": "rect",
+                      "id": "n-ext-us",
+                      "width": 196,
+                      "height": 44,
+                      "borderRadius": 8,
+                      "text": "US 商家助手",
+                      "fillColor": "#ffffff",
+                      "borderColor": "#5b7fcb",
+                      "textColor": "#1f2329",
+                      "fontSize": 14
+                    },
+                    {
+                      "type": "rect",
+                      "id": "n-ext-sea",
+                      "width": 196,
+                      "height": 44,
+                      "borderRadius": 8,
+                      "text": "SEA 商家助手",
+                      "fillColor": "#ffffff",
+                      "borderColor": "#5b7fcb",
+                      "textColor": "#1f2329",
+                      "fontSize": 14
+                    },
+                    {
+                      "type": "rect",
+                      "id": "n-ext-video",
+                      "width": 196,
+                      "height": 44,
+                      "borderRadius": 8,
+                      "text": "GS AIGC 视频",
+                      "fillColor": "#ffffff",
+                      "borderColor": "#5b7fcb",
+                      "textColor": "#1f2329",
+                      "fontSize": 14
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "external-data",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 12,
+                  "fillColor": "#ffffff",
+                  "borderColor": "#5b7fcb",
+                  "borderWidth": 1,
+                  "width": 220,
+                  "height": "fit-content",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "external-data-title",
+                      "text": "数据生态",
+                      "fontSize": 13,
+                      "textColor": "#6b7280",
+                      "fontWeight": "bold",
+                      "width": "fit-content",
+                      "height": "fit-content"
+                    },
+                    {
+                      "type": "rect",
+                      "id": "n-ext-hive",
+                      "width": 196,
+                      "height": 44,
+                      "borderRadius": 8,
+                      "text": "Hive 数仓",
+                      "fillColor": "#ffffff",
+                      "borderColor": "#5b7fcb",
+                      "textColor": "#1f2329",
+                      "fontSize": 14
+                    },
+                    {
+                      "type": "rect",
+                      "id": "n-ext-feedback",
+                      "width": 196,
+                      "height": 44,
+                      "borderRadius": 8,
+                      "text": "业务回流数据",
+                      "fillColor": "#ffffff",
+                      "borderColor": "#5b7fcb",
+                      "textColor": "#1f2329",
+                      "fontSize": 14
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "external-auth",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 12,
+                  "fillColor": "#ffffff",
+                  "borderColor": "#5b7fcb",
+                  "borderWidth": 1,
+                  "width": 220,
+                  "height": "fit-content",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "external-auth-title",
+                      "text": "鉴权与身份",
+                      "fontSize": 13,
+                      "textColor": "#6b7280",
+                      "fontWeight": "bold",
+                      "width": "fit-content",
+                      "height": "fit-content"
+                    },
+                    {
+                      "type": "rect",
+                      "id": "n-ext-sso",
+                      "width": 196,
+                      "height": 44,
+                      "borderRadius": 8,
+                      "text": "SSO",
+                      "fillColor": "#ffffff",
+                      "borderColor": "#5b7fcb",
+                      "textColor": "#1f2329",
+                      "fontSize": 14
+                    },
+                    {
+                      "type": "rect",
+                      "id": "n-ext-tenant",
+                      "width": 196,
+                      "height": 44,
+                      "borderRadius": 8,
+                      "text": "租户体系",
+                      "fillColor": "#ffffff",
+                      "borderColor": "#5b7fcb",
+                      "textColor": "#1f2329",
+                      "fontSize": 14
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "n-access-region",
+        "to": "n-core-scene",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "rightAngle",
+        "lineColor": "#dadde3",
+        "lineWidth": 1,
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "n-core-scene",
+        "to": "n-core-scheduler",
+        "fromAnchor": "right",
+        "toAnchor": "left",
+        "lineShape": "rightAngle",
+        "lineColor": "#dadde3",
+        "lineWidth": 1,
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "n-core-scheduler",
+        "to": "n-core-evaluator",
+        "fromAnchor": "right",
+        "toAnchor": "left",
+        "lineShape": "rightAngle",
+        "lineColor": "#dadde3",
+        "lineWidth": 1,
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "n-core-evaluator",
+        "to": "n-core-report",
+        "fromAnchor": "right",
+        "toAnchor": "left",
+        "lineShape": "rightAngle",
+        "lineColor": "#dadde3",
+        "lineWidth": 1,
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "n-core-evaluator",
+        "to": "n-engine-workflow",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "rightAngle",
+        "lineColor": "#5b7fcb",
+        "lineWidth": 1,
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "n-core-evaluator",
+        "to": "n-engine-pe",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "rightAngle",
+        "lineColor": "#5b7fcb",
+        "lineWidth": 1,
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "n-core-evaluator",
+        "to": "n-engine-rule",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "rightAngle",
+        "lineColor": "#5b7fcb",
+        "lineWidth": 1,
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "n-core-target",
+        "to": "n-engine-mm",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "rightAngle",
+        "lineColor": "#5b7fcb",
+        "lineWidth": 1,
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "n-core-report",
+        "to": "n-engine-debug",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "rightAngle",
+        "lineColor": "#5b7fcb",
+        "lineWidth": 1,
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "n-engine-workflow",
+        "to": "n-data-dataset",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "rightAngle",
+        "lineColor": "#5b7fcb",
+        "lineWidth": 1,
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "n-engine-pe",
+        "to": "n-data-ark",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "rightAngle",
+        "lineColor": "#5b7fcb",
+        "lineWidth": 1,
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "n-engine-mm",
+        "to": "n-data-result",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "rightAngle",
+        "lineColor": "#5b7fcb",
+        "lineWidth": 1,
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "n-engine-debug",
+        "to": "n-data-result",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "rightAngle",
+        "lineColor": "#5b7fcb",
+        "lineWidth": 1,
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "n-data-hive",
+        "to": "n-infra-region",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "rightAngle",
+        "lineColor": "#dadde3",
+        "lineWidth": 1,
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "n-data-dataset",
+        "to": "n-infra-oss",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "rightAngle",
+        "lineColor": "#dadde3",
+        "lineWidth": 1,
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "n-data-result",
+        "to": "n-infra-mq",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "rightAngle",
+        "lineColor": "#dadde3",
+        "lineWidth": 1,
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "n-data-llm",
+        "to": "n-infra-monitor",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "rightAngle",
+        "lineColor": "#dadde3",
+        "lineWidth": 1,
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "n-core-feedback",
+        "to": "n-data-dataset",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "rightAngle",
+        "lineColor": "#c94c4c",
+        "lineWidth": 1,
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "n-core-metric",
+        "to": "n-ext-fornax",
+        "fromAnchor": "right",
+        "toAnchor": "left",
+        "lineShape": "rightAngle",
+        "lineColor": "#5b7fcb",
+        "lineWidth": 1,
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "n-engine-workflow",
+        "to": "n-ext-aicolate",
+        "fromAnchor": "right",
+        "toAnchor": "left",
+        "lineShape": "rightAngle",
+        "lineColor": "#5b7fcb",
+        "lineWidth": 1,
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "n-data-hive",
+        "to": "n-ext-hive",
+        "fromAnchor": "right",
+        "toAnchor": "left",
+        "lineShape": "rightAngle",
+        "lineColor": "#5b7fcb",
+        "lineWidth": 1,
+        "endArrow": "none"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "n-access-region",
+        "to": "n-ext-sso",
+        "fromAnchor": "right",
+        "toAnchor": "left",
+        "lineShape": "rightAngle",
+        "lineColor": "#dadde3",
+        "lineWidth": 1,
+        "endArrow": "none"
+      }
+    }
+  ],
+  "_scenario": "EcomEval 自动化评测平台系统架构图"
+}

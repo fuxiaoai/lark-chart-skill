@@ -1,0 +1,15 @@
+sequenceDiagram
+    autonumber
+    actor User as 用户
+    participant Web as Web前端
+    participant Auth as 鉴权服务
+    participant Account as 账号服务
+
+    User->>Web: 打开扫码登录页
+    Web->>Auth: 请求生成二维码
+    Auth-->>Web: 返回二维码Token
+    User->>Auth: 扫码并确认登录
+    Auth->>Account: 校验账号状态
+    Account-->>Auth: 返回账号信息
+    Auth-->>Web: 下发登录态
+    Web-->>User: 展示登录成功

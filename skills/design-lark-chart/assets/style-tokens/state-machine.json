@@ -1,0 +1,202 @@
+{
+  "id": "state-machine",
+  "cn": "状态机图",
+  "use_case": "任务生命周期、状态转换",
+  "source_token": "TLQJwefdchV7IXbVfjJcfWmZn2d",
+  "node_count": 41,
+  "style": {
+    "palette": {
+      "fill_colors": [
+        {
+          "value": "#ffffff",
+          "count": 3
+        },
+        {
+          "value": "#111827",
+          "count": 3
+        },
+        {
+          "value": "#eef3ff",
+          "count": 1
+        },
+        {
+          "value": "#fbfcfd",
+          "count": 1
+        },
+        {
+          "value": "#eaf7ee",
+          "count": 1
+        },
+        {
+          "value": "#fdebec",
+          "count": 1
+        }
+      ],
+      "border_colors": [
+        {
+          "value": "#6b7280",
+          "count": 9
+        },
+        {
+          "value": "#111827",
+          "count": 3
+        },
+        {
+          "value": "#9aa1aa",
+          "count": 2
+        },
+        {
+          "value": "#c6cbd3",
+          "count": 2
+        },
+        {
+          "value": "#5b7fcb",
+          "count": 1
+        },
+        {
+          "value": "#4e9d6d",
+          "count": 1
+        },
+        {
+          "value": "#c94c4c",
+          "count": 1
+        }
+      ],
+      "text_colors": [
+        {
+          "value": "#1f2329",
+          "count": 14
+        },
+        {
+          "value": "#6b7280",
+          "count": 6
+        },
+        {
+          "value": "#9aa1aa",
+          "count": 4
+        },
+        {
+          "value": "#c94c4c",
+          "count": 1
+        },
+        {
+          "value": "#4e9d6d",
+          "count": 1
+        },
+        {
+          "value": "#8a9099",
+          "count": 1
+        },
+        {
+          "value": "#5b7fcb",
+          "count": 1
+        },
+        {
+          "value": "#b7bdc6",
+          "count": 1
+        }
+      ]
+    },
+    "typography": {
+      "font_sizes": [
+        {
+          "value": 14,
+          "count": 25
+        },
+        {
+          "value": 12,
+          "count": 3
+        },
+        {
+          "value": 30,
+          "count": 1
+        }
+      ],
+      "font_weights": [
+        {
+          "value": "regular",
+          "count": 22
+        },
+        {
+          "value": "bold",
+          "count": 7
+        }
+      ],
+      "horizontal_align": [
+        {
+          "value": "left",
+          "count": 16
+        },
+        {
+          "value": "center",
+          "count": 12
+        },
+        {
+          "value": "right",
+          "count": 1
+        }
+      ]
+    },
+    "shape": {
+      "composite_types": [
+        {
+          "value": "round_rect",
+          "count": 6
+        },
+        {
+          "value": "ellipse",
+          "count": 5
+        },
+        {
+          "value": "rect",
+          "count": 1
+        }
+      ],
+      "border_widths": [
+        {
+          "value": "narrow",
+          "count": 6
+        },
+        {
+          "value": "medium",
+          "count": 2
+        }
+      ],
+      "border_styles": [
+        {
+          "value": "solid",
+          "count": 8
+        },
+        {
+          "value": "none",
+          "count": 4
+        }
+      ]
+    },
+    "connector": {
+      "shapes": [
+        {
+          "value": "right_angled_polyline",
+          "count": 6
+        },
+        {
+          "value": "straight",
+          "count": 5
+        }
+      ],
+      "arrow_styles": [
+        {
+          "value": "line_arrow",
+          "count": 11
+        }
+      ],
+      "line_widths": [
+        {
+          "value": "narrow",
+          "count": 11
+        }
+      ]
+    },
+    "uses_inline_svg_decoration": true
+  }
+}

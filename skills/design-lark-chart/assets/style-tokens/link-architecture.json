@@ -1,0 +1,230 @@
+{
+  "id": "link-architecture",
+  "cn": "链路架构图",
+  "use_case": "端到端调用链、数据流转、系统依赖",
+  "source_token": "BrtewQ4QPhCeI6bJR2Qci3kknqe",
+  "node_count": 108,
+  "style": {
+    "palette": {
+      "fill_colors": [
+        {
+          "value": "#eef3ff",
+          "count": 8
+        },
+        {
+          "value": "#f5f6f8",
+          "count": 6
+        },
+        {
+          "value": "#bfc5cc",
+          "count": 6
+        },
+        {
+          "value": "#fdebec",
+          "count": 2
+        },
+        {
+          "value": "#eff6ff",
+          "count": 2
+        },
+        {
+          "value": "#eaf7ee",
+          "count": 2
+        },
+        {
+          "value": "#fff4d9",
+          "count": 2
+        },
+        {
+          "value": "#f3eeff",
+          "count": 2
+        },
+        {
+          "value": "#fbfcfd",
+          "count": 1
+        },
+        {
+          "value": "#4b74d8",
+          "count": 1
+        }
+      ],
+      "border_colors": [
+        {
+          "value": "#5b7fcb",
+          "count": 20
+        },
+        {
+          "value": "#dadde3",
+          "count": 6
+        },
+        {
+          "value": "#c6cbd3",
+          "count": 5
+        },
+        {
+          "value": "#c8a33e",
+          "count": 3
+        },
+        {
+          "value": "#7b67c9",
+          "count": 3
+        },
+        {
+          "value": "#3b82f6",
+          "count": 3
+        },
+        {
+          "value": "#c94c4c",
+          "count": 3
+        },
+        {
+          "value": "#4e9d6d",
+          "count": 3
+        }
+      ],
+      "text_colors": [
+        {
+          "value": "#1f2329",
+          "count": 63
+        },
+        {
+          "value": "#ffffff",
+          "count": 12
+        },
+        {
+          "value": "#5b7fcb",
+          "count": 2
+        },
+        {
+          "value": "#b7bdc6",
+          "count": 1
+        },
+        {
+          "value": "#8a9099",
+          "count": 1
+        }
+      ]
+    },
+    "typography": {
+      "font_sizes": [
+        {
+          "value": 14,
+          "count": 51
+        },
+        {
+          "value": 18,
+          "count": 12
+        },
+        {
+          "value": 16,
+          "count": 6
+        },
+        {
+          "value": 13,
+          "count": 6
+        },
+        {
+          "value": 11,
+          "count": 2
+        },
+        {
+          "value": 12,
+          "count": 1
+        },
+        {
+          "value": 30,
+          "count": 1
+        }
+      ],
+      "font_weights": [
+        {
+          "value": "bold",
+          "count": 43
+        },
+        {
+          "value": "regular",
+          "count": 36
+        }
+      ],
+      "horizontal_align": [
+        {
+          "value": "center",
+          "count": 58
+        },
+        {
+          "value": "left",
+          "count": 20
+        },
+        {
+          "value": "right",
+          "count": 1
+        }
+      ]
+    },
+    "shape": {
+      "composite_types": [
+        {
+          "value": "round_rect",
+          "count": 25
+        },
+        {
+          "value": "ellipse",
+          "count": 6
+        },
+        {
+          "value": "rect",
+          "count": 1
+        }
+      ],
+      "border_widths": [
+        {
+          "value": "narrow",
+          "count": 18
+        },
+        {
+          "value": "extra_narrow",
+          "count": 6
+        }
+      ],
+      "border_styles": [
+        {
+          "value": "solid",
+          "count": 24
+        },
+        {
+          "value": "none",
+          "count": 8
+        }
+      ]
+    },
+    "connector": {
+      "shapes": [
+        {
+          "value": "straight",
+          "count": 17
+        },
+        {
+          "value": "right_angled_polyline",
+          "count": 5
+        }
+      ],
+      "arrow_styles": [
+        {
+          "value": "line_arrow",
+          "count": 17
+        },
+        {
+          "value": "none",
+          "count": 5
+        }
+      ],
+      "line_widths": [
+        {
+          "value": "narrow",
+          "count": 22
+        }
+      ]
+    },
+    "uses_inline_svg_decoration": true
+  }
+}

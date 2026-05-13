@@ -1,0 +1,170 @@
+{
+  "id": "matrix-quadrant",
+  "cn": "矩阵象限图",
+  "use_case": "优先级、价值成本、分类判断",
+  "source_token": "PWTEwydnrhznzObliB9c9oTVnsf",
+  "node_count": 27,
+  "style": {
+    "palette": {
+      "fill_colors": [
+        {
+          "value": "#eaf7ee",
+          "count": 1
+        },
+        {
+          "value": "#fff4d9",
+          "count": 1
+        },
+        {
+          "value": "#f7f8fa",
+          "count": 1
+        },
+        {
+          "value": "#f2ecff",
+          "count": 1
+        },
+        {
+          "value": "#eef3ff",
+          "count": 1
+        }
+      ],
+      "border_colors": [
+        {
+          "value": "#98a2b3",
+          "count": 2
+        },
+        {
+          "value": "#55c271",
+          "count": 1
+        },
+        {
+          "value": "#d6b04d",
+          "count": 1
+        },
+        {
+          "value": "#8b6be8",
+          "count": 1
+        },
+        {
+          "value": "#5b8ff9",
+          "count": 1
+        }
+      ],
+      "text_colors": [
+        {
+          "value": "#1f2329",
+          "count": 20
+        },
+        {
+          "value": "#8b6be8",
+          "count": 1
+        },
+        {
+          "value": "#5b8ff9",
+          "count": 1
+        },
+        {
+          "value": "#d6b04d",
+          "count": 1
+        },
+        {
+          "value": "#55c271",
+          "count": 1
+        },
+        {
+          "value": "#86909c",
+          "count": 1
+        }
+      ]
+    },
+    "typography": {
+      "font_sizes": [
+        {
+          "value": 13,
+          "count": 12
+        },
+        {
+          "value": 14,
+          "count": 7
+        },
+        {
+          "value": 16,
+          "count": 4
+        },
+        {
+          "value": 24,
+          "count": 1
+        },
+        {
+          "value": 12,
+          "count": 1
+        }
+      ],
+      "font_weights": [
+        {
+          "value": "regular",
+          "count": 20
+        },
+        {
+          "value": "bold",
+          "count": 5
+        }
+      ],
+      "horizontal_align": [
+        {
+          "value": "left",
+          "count": 16
+        },
+        {
+          "value": "center",
+          "count": 9
+        }
+      ]
+    },
+    "shape": {
+      "composite_types": [
+        {
+          "value": "rect",
+          "count": 5
+        }
+      ],
+      "border_widths": [
+        {
+          "value": "narrow",
+          "count": 4
+        }
+      ],
+      "border_styles": [
+        {
+          "value": "solid",
+          "count": 4
+        },
+        {
+          "value": "none",
+          "count": 1
+        }
+      ]
+    },
+    "connector": {
+      "shapes": [
+        {
+          "value": "straight",
+          "count": 2
+        }
+      ],
+      "arrow_styles": [
+        {
+          "value": "none",
+          "count": 2
+        }
+      ],
+      "line_widths": [
+        {
+          "value": "narrow",
+          "count": 2
+        }
+      ]
+    },
+    "uses_inline_svg_decoration": false
+  }
+}

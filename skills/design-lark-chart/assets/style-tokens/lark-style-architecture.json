@@ -1,0 +1,262 @@
+{
+  "id": "lark-style-architecture",
+  "cn": "飞书画板风格架构图",
+  "use_case": "策略到模块的产品/运营承接关系",
+  "source_token": "FoSgwGtvfhq2HobTpCbctGChnJh",
+  "node_count": 106,
+  "style": {
+    "palette": {
+      "fill_colors": [
+        {
+          "value": "#ffffff",
+          "count": 19
+        },
+        {
+          "value": "#b7444a",
+          "count": 7
+        },
+        {
+          "value": "#b57918",
+          "count": 4
+        },
+        {
+          "value": "#2f69a5",
+          "count": 4
+        },
+        {
+          "value": "#fff8e6",
+          "count": 3
+        },
+        {
+          "value": "#f3eeff",
+          "count": 2
+        },
+        {
+          "value": "#eaf7ee",
+          "count": 1
+        },
+        {
+          "value": "#2e7d4f",
+          "count": 1
+        },
+        {
+          "value": "#eef3ff",
+          "count": 1
+        },
+        {
+          "value": "#fff4d9",
+          "count": 1
+        },
+        {
+          "value": "#c94c4c",
+          "count": 1
+        },
+        {
+          "value": "#fbfcfd",
+          "count": 1
+        },
+        {
+          "value": "#fdebec",
+          "count": 1
+        },
+        {
+          "value": "#6e56b5",
+          "count": 1
+        }
+      ],
+      "border_colors": [
+        {
+          "value": "#dadde3",
+          "count": 16
+        },
+        {
+          "value": "#6e56b5",
+          "count": 7
+        },
+        {
+          "value": "#2e7d4f",
+          "count": 5
+        },
+        {
+          "value": "#7c8aa5",
+          "count": 5
+        },
+        {
+          "value": "#b57918",
+          "count": 4
+        },
+        {
+          "value": "#6256a5",
+          "count": 1
+        },
+        {
+          "value": "#2f69a5",
+          "count": 1
+        },
+        {
+          "value": "#a83b40",
+          "count": 1
+        },
+        {
+          "value": "#b7444a",
+          "count": 1
+        }
+      ],
+      "text_colors": [
+        {
+          "value": "#1f2329",
+          "count": 62
+        },
+        {
+          "value": "#4e5969",
+          "count": 15
+        },
+        {
+          "value": "#b7444a",
+          "count": 4
+        },
+        {
+          "value": "#ffffff",
+          "count": 3
+        },
+        {
+          "value": "#5d43a6",
+          "count": 3
+        },
+        {
+          "value": "#2f69a5",
+          "count": 2
+        },
+        {
+          "value": "#b57918",
+          "count": 2
+        },
+        {
+          "value": "#6256a5",
+          "count": 1
+        },
+        {
+          "value": "#8a9099",
+          "count": 1
+        },
+        {
+          "value": "#2e7d4f",
+          "count": 1
+        }
+      ]
+    },
+    "typography": {
+      "font_sizes": [
+        {
+          "value": 14,
+          "count": 52
+        },
+        {
+          "value": 13,
+          "count": 31
+        },
+        {
+          "value": 16,
+          "count": 5
+        },
+        {
+          "value": 12,
+          "count": 3
+        },
+        {
+          "value": 11,
+          "count": 2
+        },
+        {
+          "value": 22,
+          "count": 1
+        }
+      ],
+      "font_weights": [
+        {
+          "value": "regular",
+          "count": 63
+        },
+        {
+          "value": "bold",
+          "count": 31
+        }
+      ],
+      "horizontal_align": [
+        {
+          "value": "center",
+          "count": 69
+        },
+        {
+          "value": "left",
+          "count": 25
+        }
+      ]
+    },
+    "shape": {
+      "composite_types": [
+        {
+          "value": "round_rect",
+          "count": 30
+        },
+        {
+          "value": "ellipse",
+          "count": 15
+        },
+        {
+          "value": "rect",
+          "count": 1
+        },
+        {
+          "value": "round_rect2",
+          "count": 1
+        }
+      ],
+      "border_widths": [
+        {
+          "value": "narrow",
+          "count": 30
+        }
+      ],
+      "border_styles": [
+        {
+          "value": "solid",
+          "count": 30
+        },
+        {
+          "value": "none",
+          "count": 17
+        }
+      ]
+    },
+    "connector": {
+      "shapes": [
+        {
+          "value": "right_angled_polyline",
+          "count": 9
+        },
+        {
+          "value": "straight",
+          "count": 2
+        }
+      ],
+      "arrow_styles": [
+        {
+          "value": "line_arrow",
+          "count": 10
+        },
+        {
+          "value": "none",
+          "count": 1
+        }
+      ],
+      "line_widths": [
+        {
+          "value": "narrow",
+          "count": 11
+        }
+      ]
+    },
+    "uses_inline_svg_decoration": true
+  }
+}

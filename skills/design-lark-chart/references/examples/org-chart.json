@@ -1,0 +1,372 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "type": "frame",
+      "id": "root",
+      "layout": "vertical",
+      "gap": 24,
+      "padding": 32,
+      "width": "fit-content",
+      "height": "fit-content",
+      "fillColor": "#ffffff",
+      "borderColor": "#5b8ff9",
+      "borderWidth": 1,
+      "children": [
+        {
+          "type": "text",
+          "id": "title",
+          "text": "某 BU 研发团队组织架构",
+          "fontSize": 18,
+          "textColor": "#1f2329",
+          "fontWeight": "bold",
+          "width": "fit-content",
+          "height": "fit-content"
+        },
+        {
+          "type": "rect",
+          "id": "n1",
+          "width": 200,
+          "height": 56,
+          "borderRadius": 8,
+          "text": "研发总监",
+          "fillColor": "#ffffff",
+          "borderColor": "#5b8ff9",
+          "textColor": "#1f2329",
+          "fontSize": 14
+        },
+        {
+          "type": "frame",
+          "id": "layer1",
+          "layout": "horizontal",
+          "gap": 16,
+          "padding": 16,
+          "alignItems": "stretch",
+          "fillColor": "#ffffff",
+          "borderColor": "#5b8ff9",
+          "borderWidth": 1,
+          "width": "fit-content",
+          "height": "fit-content",
+          "children": [
+            {
+              "type": "rect",
+              "id": "n2",
+              "width": 160,
+              "height": 56,
+              "borderRadius": 8,
+              "text": "前端负责人",
+              "fillColor": "#ffffff",
+              "borderColor": "#d6b04d",
+              "textColor": "#1f2329",
+              "fontSize": 14
+            },
+            {
+              "type": "rect",
+              "id": "n3",
+              "width": 160,
+              "height": 56,
+              "borderRadius": 8,
+              "text": "后端负责人",
+              "fillColor": "#ffffff",
+              "borderColor": "#55c271",
+              "textColor": "#1f2329",
+              "fontSize": 14
+            },
+            {
+              "type": "rect",
+              "id": "n4",
+              "width": 160,
+              "height": 56,
+              "borderRadius": 8,
+              "text": "算法负责人",
+              "fillColor": "#ffffff",
+              "borderColor": "#e86868",
+              "textColor": "#1f2329",
+              "fontSize": 14
+            },
+            {
+              "type": "rect",
+              "id": "n5",
+              "width": 160,
+              "height": 56,
+              "borderRadius": 8,
+              "text": "测试负责人",
+              "fillColor": "#ffffff",
+              "borderColor": "#8b6be8",
+              "textColor": "#1f2329",
+              "fontSize": 14
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "layer2",
+          "layout": "horizontal",
+          "gap": 16,
+          "padding": 16,
+          "alignItems": "stretch",
+          "fillColor": "#ffffff",
+          "borderColor": "#5b8ff9",
+          "borderWidth": 1,
+          "width": "fit-content",
+          "height": "fit-content",
+          "children": [
+            {
+              "type": "rect",
+              "id": "n6",
+              "width": 120,
+              "height": 48,
+              "borderRadius": 8,
+              "text": "Web组",
+              "fillColor": "#ffffff",
+              "borderColor": "#d6b04d",
+              "textColor": "#1f2329",
+              "fontSize": 14
+            },
+            {
+              "type": "rect",
+              "id": "n7",
+              "width": 120,
+              "height": 48,
+              "borderRadius": 8,
+              "text": "移动端",
+              "fillColor": "#ffffff",
+              "borderColor": "#d6b04d",
+              "textColor": "#1f2329",
+              "fontSize": 14
+            },
+            {
+              "type": "rect",
+              "id": "n8",
+              "width": 120,
+              "height": 48,
+              "borderRadius": 8,
+              "text": "服务组",
+              "fillColor": "#ffffff",
+              "borderColor": "#55c271",
+              "textColor": "#1f2329",
+              "fontSize": 14
+            },
+            {
+              "type": "rect",
+              "id": "n9",
+              "width": 120,
+              "height": 48,
+              "borderRadius": 8,
+              "text": "数据组",
+              "fillColor": "#ffffff",
+              "borderColor": "#55c271",
+              "textColor": "#1f2329",
+              "fontSize": 14
+            },
+            {
+              "type": "rect",
+              "id": "n10",
+              "width": 120,
+              "height": 48,
+              "borderRadius": 8,
+              "text": "CV组",
+              "fillColor": "#ffffff",
+              "borderColor": "#e86868",
+              "textColor": "#1f2329",
+              "fontSize": 14
+            },
+            {
+              "type": "rect",
+              "id": "n11",
+              "width": 120,
+              "height": 48,
+              "borderRadius": 8,
+              "text": "NLP组",
+              "fillColor": "#ffffff",
+              "borderColor": "#e86868",
+              "textColor": "#1f2329",
+              "fontSize": 14
+            },
+            {
+              "type": "rect",
+              "id": "n12",
+              "width": 120,
+              "height": 48,
+              "borderRadius": 8,
+              "text": "自动化",
+              "fillColor": "#ffffff",
+              "borderColor": "#8b6be8",
+              "textColor": "#1f2329",
+              "fontSize": 14
+            },
+            {
+              "type": "rect",
+              "id": "n13",
+              "width": 120,
+              "height": 48,
+              "borderRadius": 8,
+              "text": "性能组",
+              "fillColor": "#ffffff",
+              "borderColor": "#8b6be8",
+              "textColor": "#1f2329",
+              "fontSize": 14
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "n1",
+        "to": "n2",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "rightAngle",
+        "lineColor": "#5b8ff9",
+        "lineWidth": 1,
+        "endArrow": "arrow"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "n1",
+        "to": "n3",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "rightAngle",
+        "lineColor": "#5b8ff9",
+        "lineWidth": 1,
+        "endArrow": "arrow"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "n1",
+        "to": "n4",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "rightAngle",
+        "lineColor": "#5b8ff9",
+        "lineWidth": 1,
+        "endArrow": "arrow"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "n1",
+        "to": "n5",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "rightAngle",
+        "lineColor": "#5b8ff9",
+        "lineWidth": 1,
+        "endArrow": "arrow"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "n2",
+        "to": "n6",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "rightAngle",
+        "lineColor": "#d6b04d",
+        "lineWidth": 1,
+        "endArrow": "arrow"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "n2",
+        "to": "n7",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "rightAngle",
+        "lineColor": "#d6b04d",
+        "lineWidth": 1,
+        "endArrow": "arrow"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "n3",
+        "to": "n8",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "rightAngle",
+        "lineColor": "#55c271",
+        "lineWidth": 1,
+        "endArrow": "arrow"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "n3",
+        "to": "n9",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "rightAngle",
+        "lineColor": "#55c271",
+        "lineWidth": 1,
+        "endArrow": "arrow"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "n4",
+        "to": "n10",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "rightAngle",
+        "lineColor": "#e86868",
+        "lineWidth": 1,
+        "endArrow": "arrow"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "n4",
+        "to": "n11",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "rightAngle",
+        "lineColor": "#e86868",
+        "lineWidth": 1,
+        "endArrow": "arrow"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "n5",
+        "to": "n12",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "rightAngle",
+        "lineColor": "#8b6be8",
+        "lineWidth": 1,
+        "endArrow": "arrow"
+      }
+    },
+    {
+      "type": "connector",
+      "connector": {
+        "from": "n5",
+        "to": "n13",
+        "fromAnchor": "bottom",
+        "toAnchor": "top",
+        "lineShape": "rightAngle",
+        "lineColor": "#8b6be8",
+        "lineWidth": 1,
+        "endArrow": "arrow"
+      }
+    }
+  ],
+  "_scenario": "某 BU 研发团队组织架构"
+}

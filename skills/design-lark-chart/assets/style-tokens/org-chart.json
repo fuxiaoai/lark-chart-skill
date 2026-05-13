@@ -1,0 +1,178 @@
+{
+  "id": "org-chart",
+  "cn": "组织架构图",
+  "use_case": "团队层级、职责分工、汇报关系",
+  "source_token": "S8VywtG4dhG1PqbOza8c4f3rn0f",
+  "node_count": 41,
+  "style": {
+    "palette": {
+      "fill_colors": [
+        {
+          "value": "#ffffff",
+          "count": 12
+        },
+        {
+          "value": "#eef3ff",
+          "count": 1
+        },
+        {
+          "value": "#fdebec",
+          "count": 1
+        },
+        {
+          "value": "#eaf7ee",
+          "count": 1
+        },
+        {
+          "value": "#f7f8fa",
+          "count": 1
+        },
+        {
+          "value": "#fff4d9",
+          "count": 1
+        },
+        {
+          "value": "#f2ecff",
+          "count": 1
+        }
+      ],
+      "border_colors": [
+        {
+          "value": "#5b8ff9",
+          "count": 5
+        },
+        {
+          "value": "#d6b04d",
+          "count": 4
+        },
+        {
+          "value": "#55c271",
+          "count": 4
+        },
+        {
+          "value": "#e86868",
+          "count": 4
+        },
+        {
+          "value": "#8b6be8",
+          "count": 4
+        }
+      ],
+      "text_colors": [
+        {
+          "value": "#1f2329",
+          "count": 32
+        },
+        {
+          "value": "#e86868",
+          "count": 1
+        },
+        {
+          "value": "#55c271",
+          "count": 1
+        },
+        {
+          "value": "#86909c",
+          "count": 1
+        },
+        {
+          "value": "#8b6be8",
+          "count": 1
+        },
+        {
+          "value": "#d6b04d",
+          "count": 1
+        }
+      ]
+    },
+    "typography": {
+      "font_sizes": [
+        {
+          "value": 14,
+          "count": 31
+        },
+        {
+          "value": 15,
+          "count": 4
+        },
+        {
+          "value": 24,
+          "count": 1
+        },
+        {
+          "value": 12,
+          "count": 1
+        }
+      ],
+      "font_weights": [
+        {
+          "value": "regular",
+          "count": 19
+        },
+        {
+          "value": "bold",
+          "count": 18
+        }
+      ],
+      "horizontal_align": [
+        {
+          "value": "center",
+          "count": 33
+        },
+        {
+          "value": "left",
+          "count": 4
+        }
+      ]
+    },
+    "shape": {
+      "composite_types": [
+        {
+          "value": "round_rect",
+          "count": 17
+        },
+        {
+          "value": "rect",
+          "count": 1
+        }
+      ],
+      "border_widths": [
+        {
+          "value": "narrow",
+          "count": 17
+        }
+      ],
+      "border_styles": [
+        {
+          "value": "solid",
+          "count": 17
+        },
+        {
+          "value": "none",
+          "count": 1
+        }
+      ]
+    },
+    "connector": {
+      "shapes": [
+        {
+          "value": "right_angled_polyline",
+          "count": 4
+        }
+      ],
+      "arrow_styles": [
+        {
+          "value": "line_arrow",
+          "count": 4
+        }
+      ],
+      "line_widths": [
+        {
+          "value": "narrow",
+          "count": 4
+        }
+      ]
+    },
+    "uses_inline_svg_decoration": false
+  }
+}

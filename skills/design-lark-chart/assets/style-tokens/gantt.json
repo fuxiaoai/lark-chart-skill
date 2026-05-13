@@ -1,0 +1,182 @@
+{
+  "id": "gantt",
+  "cn": "甘特图",
+  "use_case": "项目排期、任务周期、进度跟踪",
+  "source_token": "VbF5wyy47hXX7ebgaNxcguxOnXh",
+  "node_count": 58,
+  "style": {
+    "palette": {
+      "fill_colors": [
+        {
+          "value": "#e9ebef",
+          "count": 5
+        },
+        {
+          "value": "#eff8f2",
+          "count": 2
+        },
+        {
+          "value": "#fff6de",
+          "count": 2
+        },
+        {
+          "value": "#eef4ff",
+          "count": 2
+        },
+        {
+          "value": "#f6eeff",
+          "count": 2
+        },
+        {
+          "value": "#d8b24c",
+          "count": 1
+        },
+        {
+          "value": "#6bcf8b",
+          "count": 1
+        },
+        {
+          "value": "#f7f8fa",
+          "count": 1
+        },
+        {
+          "value": "#fcfcfd",
+          "count": 1
+        },
+        {
+          "value": "#9b7ae8",
+          "count": 1
+        },
+        {
+          "value": "#5b8ff9",
+          "count": 1
+        },
+        {
+          "value": "#fdeef1",
+          "count": 1
+        },
+        {
+          "value": "#e66a7a",
+          "count": 1
+        }
+      ],
+      "border_colors": [
+        {
+          "value": "#d9dee8",
+          "count": 24
+        }
+      ],
+      "text_colors": [
+        {
+          "value": "#1f2329",
+          "count": 38
+        },
+        {
+          "value": "#86909c",
+          "count": 6
+        }
+      ]
+    },
+    "typography": {
+      "font_sizes": [
+        {
+          "value": 14,
+          "count": 28
+        },
+        {
+          "value": 11,
+          "count": 9
+        },
+        {
+          "value": 13,
+          "count": 5
+        },
+        {
+          "value": 24,
+          "count": 1
+        },
+        {
+          "value": 12,
+          "count": 1
+        }
+      ],
+      "font_weights": [
+        {
+          "value": "regular",
+          "count": 32
+        },
+        {
+          "value": "bold",
+          "count": 12
+        }
+      ],
+      "horizontal_align": [
+        {
+          "value": "center",
+          "count": 32
+        },
+        {
+          "value": "left",
+          "count": 12
+        }
+      ]
+    },
+    "shape": {
+      "composite_types": [
+        {
+          "value": "rect",
+          "count": 11
+        },
+        {
+          "value": "round_rect",
+          "count": 8
+        },
+        {
+          "value": "round_rect2",
+          "count": 2
+        }
+      ],
+      "border_widths": [
+        {
+          "value": "extra_narrow",
+          "count": 9
+        },
+        {
+          "value": "narrow",
+          "count": 1
+        }
+      ],
+      "border_styles": [
+        {
+          "value": "none",
+          "count": 11
+        },
+        {
+          "value": "solid",
+          "count": 10
+        }
+      ]
+    },
+    "connector": {
+      "shapes": [
+        {
+          "value": "straight",
+          "count": 14
+        }
+      ],
+      "arrow_styles": [
+        {
+          "value": "none",
+          "count": 14
+        }
+      ],
+      "line_widths": [
+        {
+          "value": "extra_narrow",
+          "count": 14
+        }
+      ]
+    },
+    "uses_inline_svg_decoration": false
+  }
+}

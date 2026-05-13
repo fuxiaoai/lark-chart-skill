@@ -1,0 +1,138 @@
+{
+  "id": "funnel",
+  "cn": "漏斗图",
+  "use_case": "阶段转化、流失分析",
+  "source_token": "HXJEwyK9thlmfjbWqCVcMam6nMg",
+  "node_count": 48,
+  "style": {
+    "palette": {
+      "fill_colors": [
+        {
+          "value": "#ffffff",
+          "count": 10
+        },
+        {
+          "value": "#f7f8fa",
+          "count": 1
+        }
+      ],
+      "border_colors": [
+        {
+          "value": "#e5e6eb",
+          "count": 10
+        },
+        {
+          "value": "#c9cdd4",
+          "count": 10
+        }
+      ],
+      "text_colors": [
+        {
+          "value": "#1f2329",
+          "count": 22
+        },
+        {
+          "value": "#eef3ff",
+          "count": 5
+        },
+        {
+          "value": "#ffffff",
+          "count": 5
+        },
+        {
+          "value": "#86909c",
+          "count": 1
+        }
+      ]
+    },
+    "typography": {
+      "font_sizes": [
+        {
+          "value": 14,
+          "count": 21
+        },
+        {
+          "value": 16,
+          "count": 5
+        },
+        {
+          "value": 18,
+          "count": 5
+        },
+        {
+          "value": 12,
+          "count": 1
+        },
+        {
+          "value": 24,
+          "count": 1
+        }
+      ],
+      "font_weights": [
+        {
+          "value": "regular",
+          "count": 17
+        },
+        {
+          "value": "bold",
+          "count": 16
+        }
+      ],
+      "horizontal_align": [
+        {
+          "value": "center",
+          "count": 33
+        }
+      ]
+    },
+    "shape": {
+      "composite_types": [
+        {
+          "value": "round_rect",
+          "count": 10
+        },
+        {
+          "value": "rect",
+          "count": 1
+        }
+      ],
+      "border_widths": [
+        {
+          "value": "narrow",
+          "count": 10
+        }
+      ],
+      "border_styles": [
+        {
+          "value": "solid",
+          "count": 10
+        },
+        {
+          "value": "none",
+          "count": 1
+        }
+      ]
+    },
+    "connector": {
+      "shapes": [
+        {
+          "value": "straight",
+          "count": 10
+        }
+      ],
+      "arrow_styles": [
+        {
+          "value": "line_arrow",
+          "count": 10
+        }
+      ],
+      "line_widths": [
+        {
+          "value": "narrow",
+          "count": 10
+        }
+      ]
+    },
+    "uses_inline_svg_decoration": true
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "id": "complex-swimlane",
+  "cn": "复杂业务泳道图",
+  "use_case": "多系统多节点的端到端履约链路",
+  "source_token": "DDU9wTNfIhRTbwbqftSc2d8znlg",
+  "node_count": 135,
+  "style": {
+    "palette": {
+      "fill_colors": [
+        {
+          "value": "#4b74d8",
+          "count": 9
+        },
+        {
+          "value": "#eef3ff",
+          "count": 8
+        },
+        {
+          "value": "#f5f6f8",
+          "count": 6
+        },
+        {
+          "value": "#bfc5cc",
+          "count": 6
+        },
+        {
+          "value": "#ffffff",
+          "count": 4
+        },
+        {
+          "value": "#fdebec",
+          "count": 3
+        },
+        {
+          "value": "#eff6ff",
+          "count": 2
+        },
+        {
+          "value": "#f3eeff",
+          "count": 2
+        },
+        {
+          "value": "#eaf7ee",
+          "count": 2
+        },
+        {
+          "value": "#fbfcfd",
+          "count": 1
+        },
+        {
+          "value": "#fff4d9",
+          "count": 1
+        }
+      ],
+      "border_colors": [
+        {
+          "value": "#5b7fcb",
+          "count": 20
+        },
+        {
+          "value": "#dadde3",
+          "count": 10
+        },
+        {
+          "value": "#c6cbd3",
+          "count": 5
+        },
+        {
+          "value": "#c94c4c",
+          "count": 4
+        },
+        {
+          "value": "#3b82f6",
+          "count": 3
+        },
+        {
+          "value": "#7b67c9",
+          "count": 3
+        },
+        {
+          "value": "#4e9d6d",
+          "count": 3
+        },
+        {
+          "value": "#c8a33e",
+          "count": 2
+        }
+      ],
+      "text_colors": [
+        {
+          "value": "#1f2329",
+          "count": 75
+        },
+        {
+          "value": "#ffffff",
+          "count": 15
+        },
+        {
+          "value": "#4e5969",
+          "count": 8
+        },
+        {
+          "value": "#4b74d8",
+          "count": 4
+        },
+        {
+          "value": "#5b7fcb",
+          "count": 2
+        },
+        {
+          "value": "#b7bdc6",
+          "count": 1
+        },
+        {
+          "value": "#8a9099",
+          "count": 1
+        }
+      ]
+    },
+    "typography": {
+      "font_sizes": [
+        {
+          "value": 14,
+          "count": 63
+        },
+        {
+          "value": 13,
+          "count": 14
+        },
+        {
+          "value": 18,
+          "count": 12
+        },
+        {
+          "value": 16,
+          "count": 10
+        },
+        {
+          "value": 11,
+          "count": 5
+        },
+        {
+          "value": 30,
+          "count": 1
+        },
+        {
+          "value": 12,
+          "count": 1
+        }
+      ],
+      "font_weights": [
+        {
+          "value": "regular",
+          "count": 59
+        },
+        {
+          "value": "bold",
+          "count": 47
+        }
+      ],
+      "horizontal_align": [
+        {
+          "value": "center",
+          "count": 73
+        },
+        {
+          "value": "left",
+          "count": 32
+        },
+        {
+          "value": "right",
+          "count": 1
+        }
+      ]
+    },
+    "shape": {
+      "composite_types": [
+        {
+          "value": "round_rect",
+          "count": 29
+        },
+        {
+          "value": "ellipse",
+          "count": 14
+        },
+        {
+          "value": "rect",
+          "count": 1
+        }
+      ],
+      "border_widths": [
+        {
+          "value": "narrow",
+          "count": 22
+        },
+        {
+          "value": "extra_narrow",
+          "count": 6
+        }
+      ],
+      "border_styles": [
+        {
+          "value": "solid",
+          "count": 28
+        },
+        {
+          "value": "none",
+          "count": 16
+        }
+      ]
+    },
+    "connector": {
+      "shapes": [
+        {
+          "value": "straight",
+          "count": 17
+        },
+        {
+          "value": "right_angled_polyline",
+          "count": 5
+        }
+      ],
+      "arrow_styles": [
+        {
+          "value": "line_arrow",
+          "count": 17
+        },
+        {
+          "value": "none",
+          "count": 5
+        }
+      ],
+      "line_widths": [
+        {
+          "value": "narrow",
+          "count": 22
+        }
+      ]
+    },
+    "uses_inline_svg_decoration": true
+  }
+}

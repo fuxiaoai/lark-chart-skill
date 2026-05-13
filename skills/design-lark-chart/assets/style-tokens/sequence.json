@@ -1,0 +1,134 @@
+{
+  "id": "sequence",
+  "cn": "时序图",
+  "use_case": "接口调用顺序、跨系统交互",
+  "source_token": "XDPPwuXdahsoFvbmdaLcOvVkn4o",
+  "node_count": 56,
+  "style": {
+    "palette": {
+      "fill_colors": [
+        {
+          "value": "#ffffff",
+          "count": 14
+        },
+        {
+          "value": "#f7f8fa",
+          "count": 1
+        }
+      ],
+      "border_colors": [
+        {
+          "value": "#6c8dda",
+          "count": 9
+        },
+        {
+          "value": "#5b8ff9",
+          "count": 7
+        },
+        {
+          "value": "#e4e7ed",
+          "count": 7
+        },
+        {
+          "value": "#afc1e8",
+          "count": 7
+        }
+      ],
+      "text_colors": [
+        {
+          "value": "#1f2329",
+          "count": 39
+        },
+        {
+          "value": "#86909c",
+          "count": 1
+        }
+      ]
+    },
+    "typography": {
+      "font_sizes": [
+        {
+          "value": 14,
+          "count": 29
+        },
+        {
+          "value": 12,
+          "count": 10
+        },
+        {
+          "value": 24,
+          "count": 1
+        }
+      ],
+      "font_weights": [
+        {
+          "value": "regular",
+          "count": 25
+        },
+        {
+          "value": "bold",
+          "count": 15
+        }
+      ],
+      "horizontal_align": [
+        {
+          "value": "center",
+          "count": 40
+        }
+      ]
+    },
+    "shape": {
+      "composite_types": [
+        {
+          "value": "round_rect",
+          "count": 14
+        },
+        {
+          "value": "rect",
+          "count": 1
+        }
+      ],
+      "border_widths": [
+        {
+          "value": "narrow",
+          "count": 14
+        }
+      ],
+      "border_styles": [
+        {
+          "value": "solid",
+          "count": 14
+        },
+        {
+          "value": "none",
+          "count": 1
+        }
+      ]
+    },
+    "connector": {
+      "shapes": [
+        {
+          "value": "straight",
+          "count": 16
+        }
+      ],
+      "arrow_styles": [
+        {
+          "value": "line_arrow",
+          "count": 9
+        },
+        {
+          "value": "none",
+          "count": 7
+        }
+      ],
+      "line_widths": [
+        {
+          "value": "narrow",
+          "count": 16
+        }
+      ]
+    },
+    "uses_inline_svg_decoration": false
+  }
+}
